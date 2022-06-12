@@ -113,6 +113,11 @@ a{
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .level{
+    font-size:1rem;
+  }
+}
 
 
 
