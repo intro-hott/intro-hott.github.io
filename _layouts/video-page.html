@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+	</div>
+
+</section>
+
+<section class="single">
+
+	<div class="wrap">
+		{% if page.wcode %}
+		<iframe src="https://www.youtube.com/embed/{{ page.wcode }}?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="640" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+		{% endif %}
+
+
+		{% if page.excerpt %}
+		<h2 id="description">Description</h2> 
+		<p>{{ page.excerpt }}</p>
+		{% endif %}
+
+		{{ page.content }}
+
+		<h2 id="formalization-links">Formalization links:</h2>
+			<ul>
+			<li><a href="https://github.com/jacobneu/HoTT-agda">The formalization I’m developing for this video series</a></li>
+			</ul>
+
+		<h2 id="hott-textbooks">HoTT textbooks:</h2>
+			<ul>
+			<li><a href="https://homotopytypetheory.org/book/">The HoTT Book (2013)</a>—the original statement of HoTT</li>
+			<li><a href="https://ncatlab.org/nlab/show/Introduction+to+Homotopy+Type+Theory">Introduction to Homotopy Type Theory</a>, by Egbert Rijke (to be released)</li>
+			</ul>
+		
+
+	</div>
+
+</section>

@@ -20,9 +20,8 @@ defaults:
   -
     scope:
       path: ""
-      type: "posts"
     values:
-      layout: "page"
+      layout: "video-page"
   -
     scope:
       path: ""
