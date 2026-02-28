@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2025</fr:year>
+      <fr:month>12</fr:month>
+      <fr:day>22</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/000X/</fr:uri>
+    <fr:display-uri>000X</fr:display-uri>
+    <fr:route>/000X/</fr:route>
+    <fr:title text="Logic Interpretation">Logic Interpretation</fr:title>
+    <fr:taxon>Concept</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter />
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/concepts/</fr:uri>
+            <fr:display-uri>concepts</fr:display-uri>
+            <fr:route>/concepts/</fr:route>
+            <fr:title text="Concepts">Concepts</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li><fr:link href="/0003/" title="Typechecking" uri="https://intro-hott.video/0003/" display-uri="0003" type="local">Typechecking</fr:link></html:li>
+<html:li><fr:link href="/0004/" title="Computer Formalization" uri="https://intro-hott.video/0004/" display-uri="0004" type="local">Computer Formalization</fr:link></html:li>
+<html:li><fr:link href="/0007/" title="Univalent Foundations" uri="https://intro-hott.video/0007/" display-uri="0007" type="local">Univalent Foundations</fr:link></html:li>
+<html:li><fr:link href="/000V/" title="Homotopy Interpretation" uri="https://intro-hott.video/000V/" display-uri="000V" type="local">Homotopy Interpretation</fr:link></html:li>
+<html:li><fr:link href="/000W/" title="Programming Interpretation" uri="https://intro-hott.video/000W/" display-uri="000W" type="local">Programming Interpretation</fr:link></html:li>
+<html:li><fr:link href="/000X/" title="Logic Interpretation" uri="https://intro-hott.video/000X/" display-uri="000X" type="local">Logic Interpretation</fr:link></html:li>
+<html:li><fr:link href="/000Y/" title="Informal Reasoning" uri="https://intro-hott.video/000Y/" display-uri="000Y" type="local">Informal Reasoning</fr:link></html:li>
+<html:li><fr:link href="/000Z/" title="Computer Formalized Reasoning" uri="https://intro-hott.video/000Z/" display-uri="000Z" type="local">Computer Formalized Reasoning</fr:link></html:li>
+<html:li><fr:link href="/0010/" title="Formal Deductive Calculus Reasoning" uri="https://intro-hott.video/0010/" display-uri="0010" type="local">Formal Deductive Calculus Reasoning</fr:link></html:li>
+<html:li><fr:link href="/0011/" title="Combining Interpretations with Reasoning Styles" uri="https://intro-hott.video/0011/" display-uri="0011" type="local">Combining Interpretations with Reasoning Styles</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

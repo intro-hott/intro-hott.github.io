@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>7</fr:month>
+      <fr:day>23</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/no6.part0.mentions</fr:uri>
+    <fr:display-uri>no6.part0.mentions</fr:display-uri>
+    <fr:route>/no6.part0.mentions</fr:route>
+    <fr:title text="Mentions">Mentions</fr:title>
+    <fr:taxon>Resource</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:ul><html:li>05:07: <fr:link href="/000S/" title="Negation, Bi-implication, and logical Or" uri="https://intro-hott.video/000S/" display-uri="000S" type="local">Negation, Bi-implication, and logical Or</fr:link></html:li>
+   <html:li>05:56: <fr:link href="/000T/" title="Negation, Bi-implication, and logical Or examples" uri="https://intro-hott.video/000T/" display-uri="000T" type="local">Negation, Bi-implication, and logical Or examples</fr:link></html:li>
+   <html:li>05:56: <fr:link href="/000U/" title="sandbox-06.agda" uri="https://intro-hott.video/000U/" display-uri="000U" type="local">sandbox-06.agda</fr:link></html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no6.part0</fr:uri>
+            <fr:display-uri>no6.part0</fr:display-uri>
+            <fr:route>/no6.part0</fr:route>
+            <fr:title text="Mechanics, or Magic?: STLC and Propositional Logic">Mechanics, or Magic?: STLC and Propositional Logic</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no6.part0.description</fr:uri>
+                <fr:display-uri>no6.part0.description</fr:display-uri>
+                <fr:route>/no6.part0.description</fr:route>
+                <fr:title text="Mechanics, or Magic?: STLC and Propositional Logic">Mechanics, or Magic?: STLC and Propositional Logic</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Returning to the logic interpretation, we round out intuitionistic propositional logic with logical conjunction, disjunction, negation, and equivalence, all implemented in informal/Agda formal/deductive formal HoTT.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no6.part0.embed</fr:uri>
+                <fr:display-uri>no6.part0.embed</fr:display-uri>
+                <fr:route>/no6.part0.embed</fr:route>
+                <fr:title text="Mechanics, or Magic?: STLC and Propositional Logic">Mechanics, or Magic?: STLC and Propositional Logic</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/lU96JVN5QA4?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no6.part0.mentions</fr:uri>
+                <fr:display-uri>no6.part0.mentions</fr:display-uri>
+                <fr:route>/no6.part0.mentions</fr:route>
+                <fr:title text="Mentions">Mentions</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>05:07: <fr:link href="/000S/" title="Negation, Bi-implication, and logical Or" uri="https://intro-hott.video/000S/" display-uri="000S" type="local">Negation, Bi-implication, and logical Or</fr:link></html:li>
+   <html:li>05:56: <fr:link href="/000T/" title="Negation, Bi-implication, and logical Or examples" uri="https://intro-hott.video/000T/" display-uri="000T" type="local">Negation, Bi-implication, and logical Or examples</fr:link></html:li>
+   <html:li>05:56: <fr:link href="/000U/" title="sandbox-06.agda" uri="https://intro-hott.video/000U/" display-uri="000U" type="local">sandbox-06.agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000S/</fr:uri>
+            <fr:display-uri>000S</fr:display-uri>
+            <fr:route>/000S/</fr:route>
+            <fr:title text="Negation, Bi-implication, and logical Or">
+              <html:code>Negation, Bi-implication, and logical Or</html:code>
+            </fr:title>
+            <fr:taxon>Code Fragment</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+<html:a id="1379" class="Keyword">infix</html:a> <html:a id="1385" class="Number">3</html:a> <html:a id="1387" href="../000A/index.xml#1390" class="Function Operator">¬_</html:a>
+<html:a id="1390" href="../000A/index.xml#1390" class="Function Operator">¬_</html:a> <html:a id="1393" class="Symbol">:</html:a> <html:a id="1395" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1400" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a> <html:a id="1402" class="Symbol">→</html:a> <html:a id="1404" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1409" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a>
+<html:a id="1411" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="1413" href="../000A/index.xml#1413" class="Bound">P</html:a> <html:a id="1415" class="Symbol">=</html:a> <html:a id="1417" href="../000A/index.xml#1413" class="Bound">P</html:a> <html:a id="1419" class="Symbol">→</html:a> <html:a id="1421" href="../000A/index.xml#960" class="Function">𝟘</html:a>
+
+<html:a id="1424" class="Keyword">infix</html:a> <html:a id="1430" class="Number">2</html:a> <html:a id="1432" href="../000A/index.xml#1436" class="Function Operator">_↔_</html:a>
+<html:a id="1436" href="../000A/index.xml#1436" class="Function Operator">_↔_</html:a> <html:a id="1440" class="Symbol">:</html:a> <html:a id="1442" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1447" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a> <html:a id="1449" class="Symbol">→</html:a> <html:a id="1451" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1456" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a> <html:a id="1458" class="Symbol">→</html:a> <html:a id="1460" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1465" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a>
+<html:a id="1467" href="../000A/index.xml#1467" class="Bound">P</html:a> <html:a id="1469" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="1471" href="../000A/index.xml#1471" class="Bound">Q</html:a> <html:a id="1473" class="Symbol">=</html:a> <html:a id="1475" class="Symbol"><![CDATA[(]]></html:a><html:a id="1476" href="../000A/index.xml#1467" class="Bound">P</html:a> <html:a id="1478" class="Symbol">→</html:a> <html:a id="1480" href="../000A/index.xml#1471" class="Bound">Q</html:a><html:a id="1481" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1483" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="1485" class="Symbol"><![CDATA[(]]></html:a><html:a id="1486" href="../000A/index.xml#1471" class="Bound">Q</html:a> <html:a id="1488" class="Symbol">→</html:a> <html:a id="1490" href="../000A/index.xml#1467" class="Bound">P</html:a><html:a id="1491" class="Symbol"><![CDATA[)]]></html:a>
+
+<html:a id="1494" class="Keyword">infix</html:a> <html:a id="1500" class="Number">1</html:a> <html:a id="1502" href="../000A/index.xml#1511" class="Datatype Operator">_⊎_</html:a>
+<html:a id="1506" class="Keyword">data</html:a> <html:a id="1511" href="../000A/index.xml#1511" class="Datatype Operator">_⊎_</html:a> <html:a id="1515" class="Symbol"><![CDATA[(]]></html:a><html:a id="1516" href="../000A/index.xml#1516" class="Bound">A</html:a> <html:a id="1518" href="../000A/index.xml#1518" class="Bound">B</html:a> <html:a id="1520" class="Symbol">:</html:a> <html:a id="1522" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1527" href="../0009/index.xml#132" class="Generalizable">ℓ</html:a><html:a id="1528" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1530" class="Symbol">:</html:a> <html:a id="1532" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="1537" href="../000A/index.xml#1527" class="Bound">ℓ</html:a> <html:a id="1539" class="Keyword">where</html:a>
+  <html:a id="1547" href="../000A/index.xml#1547" class="InductiveConstructor">inl</html:a> <html:a id="1551" class="Symbol">:</html:a> <html:a id="1553" href="../000A/index.xml#1516" class="Bound">A</html:a> <html:a id="1555" class="Symbol">→</html:a> <html:a id="1557" href="../000A/index.xml#1516" class="Bound">A</html:a> <html:a id="1559" href="../000A/index.xml#1511" class="Datatype Operator">⊎</html:a> <html:a id="1561" href="../000A/index.xml#1518" class="Bound">B</html:a>
+  <html:a id="1565" href="../000A/index.xml#1565" class="InductiveConstructor">inr</html:a> <html:a id="1569" class="Symbol">:</html:a> <html:a id="1571" href="../000A/index.xml#1518" class="Bound">B</html:a> <html:a id="1573" class="Symbol">→</html:a> <html:a id="1575" href="../000A/index.xml#1516" class="Bound">A</html:a> <html:a id="1577" href="../000A/index.xml#1511" class="Datatype Operator">⊎</html:a> <html:a id="1579" href="../000A/index.xml#1518" class="Bound">B</html:a>
+<html:a id="1581" class="Keyword">open</html:a> <html:a id="1586" href="../000A/index.xml#1511" class="Module Operator">_⊎_</html:a>
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000T/</fr:uri>
+            <fr:display-uri>000T</fr:display-uri>
+            <fr:route>/000T/</fr:route>
+            <fr:title text="Negation, Bi-implication, and logical Or examples">
+              <html:code>Negation, Bi-implication, and logical Or examples</html:code>
+            </fr:title>
+            <fr:taxon>Code Fragment</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+<html:a id="example0" /><html:a id="124" href="../000T/index.xml#124" class="Function">example0</html:a> <html:a id="133" class="Symbol">:</html:a> <html:a id="135" class="Symbol"><![CDATA[(]]></html:a><html:a id="136" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="138" class="Symbol">→</html:a> <html:a id="140" href="../000T/index.xml#106" class="Generalizable">Q</html:a><html:a id="141" class="Symbol"><![CDATA[)]]></html:a> <html:a id="143" class="Symbol">→</html:a> <html:a id="145" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="147" href="../000T/index.xml#106" class="Generalizable">Q</html:a> <html:a id="149" class="Symbol">→</html:a> <html:a id="151" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="153" href="../000A/index.xml#742" class="Generalizable">P</html:a>
+<html:a id="155" href="../000T/index.xml#124" class="Function">example0</html:a> <html:a id="164" href="../000T/index.xml#164" class="Bound">p→q</html:a> <html:a id="168" class="Symbol">=</html:a> <html:a id="170" class="Symbol">λ</html:a> <html:a id="172" href="../000T/index.xml#172" class="Bound">nq</html:a> <html:a id="175" href="../000T/index.xml#175" class="Bound">p</html:a> <html:a id="177" class="Symbol">→</html:a> <html:a id="179" href="../000T/index.xml#172" class="Bound">nq</html:a> <html:a id="182" class="Symbol"><![CDATA[(]]></html:a><html:a id="183" href="../000T/index.xml#164" class="Bound">p→q</html:a> <html:a id="187" href="../000T/index.xml#175" class="Bound">p</html:a><html:a id="188" class="Symbol"><![CDATA[)]]></html:a>
+
+<html:a id="example1" /><html:a id="191" href="../000T/index.xml#191" class="Function">example1</html:a> <html:a id="200" class="Symbol">:</html:a> <html:a id="202" href="../000A/index.xml#1390" class="Function Operator">¬</html:a><html:a id="203" class="Symbol"><![CDATA[(]]></html:a><html:a id="204" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="206" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="208" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="210" href="../000A/index.xml#742" class="Generalizable">P</html:a><html:a id="211" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="213" href="../000T/index.xml#191" class="Function">example1</html:a> <html:a id="222" class="Symbol"><![CDATA[(]]></html:a><html:a id="223" href="../000T/index.xml#223" class="Bound">p</html:a> <html:a id="225" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="227" href="../000T/index.xml#227" class="Bound">np</html:a><html:a id="229" class="Symbol"><![CDATA[)]]></html:a> <html:a id="231" class="Symbol">=</html:a> <html:a id="233" href="../000T/index.xml#227" class="Bound">np</html:a> <html:a id="236" href="../000T/index.xml#223" class="Bound">p</html:a>
+
+<html:a id="example2" /><html:a id="239" href="../000T/index.xml#239" class="Function">example2</html:a> <html:a id="248" class="Symbol">:</html:a> <html:a id="250" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="252" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="254" class="Symbol">→</html:a> <html:a id="256" class="Symbol"><![CDATA[(]]></html:a><html:a id="257" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="259" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="261" href="../000A/index.xml#960" class="Function">𝟘</html:a><html:a id="262" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="264" href="../000T/index.xml#239" class="Function">example2</html:a> <html:a id="273" href="../000T/index.xml#273" class="Bound">np</html:a> <html:a id="276" class="Symbol">=</html:a> <html:a id="278" href="../000T/index.xml#273" class="Bound">np</html:a> <html:a id="281" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="283" href="../000A/index.xml#971" class="Function">iter-𝟘</html:a>
+
+<html:a id="example3" /><html:a id="291" href="../000T/index.xml#291" class="Function">example3</html:a> <html:a id="300" class="Symbol">:</html:a> <html:a id="302" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="304" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="306" href="../000A/index.xml#199" class="Function">𝟙</html:a>
+<html:a id="308" href="../000T/index.xml#291" class="Function">example3</html:a> <html:a id="317" class="Symbol">=</html:a> <html:a id="319" class="Symbol"><![CDATA[(]]>λ</html:a> <html:a id="322" href="../000T/index.xml#322" class="Bound">_</html:a> <html:a id="324" class="Symbol">→</html:a> <html:a id="326" href="../000A/index.xml#167" class="InductiveConstructor">star</html:a><html:a id="330" class="Symbol"><![CDATA[)]]></html:a> <html:a id="332" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="334" href="../000A/index.xml#887" class="Function">iter-𝟙</html:a> <html:a id="341" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a>
+
+<html:a id="example4" /><html:a id="345" href="../000T/index.xml#345" class="Function">example4</html:a> <html:a id="354" class="Symbol">:</html:a> <html:a id="356" href="../000A/index.xml#1390" class="Function Operator">¬</html:a><html:a id="357" class="Symbol"><![CDATA[(]]></html:a><html:a id="358" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="360" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="362" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="364" href="../000A/index.xml#742" class="Generalizable">P</html:a><html:a id="365" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="367" href="../000T/index.xml#345" class="Function">example4</html:a> <html:a id="376" class="Symbol"><![CDATA[{]]></html:a><html:a id="377" href="../000T/index.xml#377" class="Bound">P</html:a><html:a id="378" class="Symbol"><![CDATA[}]]></html:a> <html:a id="380" class="Symbol"><![CDATA[(]]></html:a><html:a id="381" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="385" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="387" href="../000T/index.xml#387" class="Bound">pnp</html:a><html:a id="390" class="Symbol"><![CDATA[)]]></html:a> <html:a id="392" class="Symbol">=</html:a> <html:a id="394" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="398" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="400" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="402" class="Keyword">where</html:a>
+    <html:a id="412" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="414" class="Symbol">:</html:a> <html:a id="416" href="../000T/index.xml#377" class="Bound">P</html:a>
+    <html:a id="422" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="424" class="Symbol">=</html:a> <html:a id="426" href="../000T/index.xml#387" class="Bound">pnp</html:a> <html:a id="430" class="Symbol">λ</html:a> <html:a id="432" href="../000T/index.xml#432" class="Bound">p₀</html:a> <html:a id="435" class="Symbol">→</html:a> <html:a id="437" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="441" href="../000T/index.xml#432" class="Bound">p₀</html:a> <html:a id="444" href="../000T/index.xml#432" class="Bound">p₀</html:a>
+
+<html:a id="example5" /><html:a id="448" href="../000T/index.xml#448" class="Function">example5</html:a> <html:a id="457" class="Symbol">:</html:a> <html:a id="459" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="461" class="Symbol"><![CDATA[(]]></html:a> <html:a id="463" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="465" href="../000A/index.xml#1511" class="Datatype Operator">⊎</html:a> <html:a id="467" href="../000T/index.xml#106" class="Generalizable">Q</html:a> <html:a id="469" class="Symbol"><![CDATA[)]]></html:a> <html:a id="471" class="Symbol">→</html:a> <html:a id="473" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="475" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="477" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="479" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="481" href="../000T/index.xml#106" class="Generalizable">Q</html:a>
+<html:a id="483" href="../000T/index.xml#448" class="Function">example5</html:a> <html:a id="492" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="497" class="Symbol">=</html:a> <html:a id="499" class="Symbol"><![CDATA[(]]>λ</html:a> <html:a id="502" href="../000T/index.xml#502" class="Bound">p</html:a> <html:a id="504" class="Symbol">→</html:a> <html:a id="506" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="511" class="Symbol"><![CDATA[(]]></html:a><html:a id="512" href="../000A/index.xml#1547" class="InductiveConstructor">inl</html:a> <html:a id="516" href="../000T/index.xml#502" class="Bound">p</html:a><html:a id="517" class="Symbol"><![CDATA[)]]><![CDATA[)]]></html:a> <html:a id="520" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="522" class="Symbol">λ</html:a> <html:a id="524" href="../000T/index.xml#524" class="Bound">q</html:a> <html:a id="526" class="Symbol">→</html:a> <html:a id="528" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="533" class="Symbol"><![CDATA[(]]></html:a><html:a id="534" href="../000A/index.xml#1565" class="InductiveConstructor">inr</html:a> <html:a id="538" href="../000T/index.xml#524" class="Bound">q</html:a><html:a id="539" class="Symbol"><![CDATA[)]]></html:a>
+
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>7</fr:month>
+              <fr:day>23</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000U/</fr:uri>
+            <fr:display-uri>000U</fr:display-uri>
+            <fr:route>/000U/</fr:route>
+            <fr:title text="sandbox-06.agda">
+              <html:code>sandbox-06.agda</html:code>
+            </fr:title>
+            <fr:taxon>Code File</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda"><html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="../000T/index.xml" class="Module">sandbox-06</html:a> <html:a id="48" class="Keyword">where</html:a>
+
+<html:a id="55" class="Keyword">open</html:a> <html:a id="60" class="Keyword">import</html:a> <html:a id="67" href="../000A/index.xml" class="Module">01-simpleTT</html:a> <html:a id="79" class="Keyword">public</html:a>
+<html:a id="86" class="Keyword">open</html:a> <html:a id="91" href="../000A/index.xml#1017" class="Module Operator">_×_</html:a>
+
+
+<html:a id="97" class="Keyword">variable</html:a> <html:a id="106" href="../000T/index.xml#106" class="Generalizable">Q</html:a> <html:a id="108" href="../000T/index.xml#108" class="Generalizable">R</html:a> <html:a id="110" class="Symbol">:</html:a> <html:a id="112" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="117" href="Agda.Primitive.html#764" class="Primitive">lzero</html:a>
+</html:pre>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/000T/</fr:uri>
+                <fr:display-uri>000T</fr:display-uri>
+                <fr:route>/000T/</fr:route>
+                <fr:title text="Negation, Bi-implication, and logical Or examples">
+                  <html:code>Negation, Bi-implication, and logical Or examples</html:code>
+                </fr:title>
+                <fr:taxon>Code Fragment</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+                <html:pre class="Agda">
+<html:a id="example0" /><html:a id="124" href="../000T/index.xml#124" class="Function">example0</html:a> <html:a id="133" class="Symbol">:</html:a> <html:a id="135" class="Symbol"><![CDATA[(]]></html:a><html:a id="136" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="138" class="Symbol">→</html:a> <html:a id="140" href="../000T/index.xml#106" class="Generalizable">Q</html:a><html:a id="141" class="Symbol"><![CDATA[)]]></html:a> <html:a id="143" class="Symbol">→</html:a> <html:a id="145" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="147" href="../000T/index.xml#106" class="Generalizable">Q</html:a> <html:a id="149" class="Symbol">→</html:a> <html:a id="151" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="153" href="../000A/index.xml#742" class="Generalizable">P</html:a>
+<html:a id="155" href="../000T/index.xml#124" class="Function">example0</html:a> <html:a id="164" href="../000T/index.xml#164" class="Bound">p→q</html:a> <html:a id="168" class="Symbol">=</html:a> <html:a id="170" class="Symbol">λ</html:a> <html:a id="172" href="../000T/index.xml#172" class="Bound">nq</html:a> <html:a id="175" href="../000T/index.xml#175" class="Bound">p</html:a> <html:a id="177" class="Symbol">→</html:a> <html:a id="179" href="../000T/index.xml#172" class="Bound">nq</html:a> <html:a id="182" class="Symbol"><![CDATA[(]]></html:a><html:a id="183" href="../000T/index.xml#164" class="Bound">p→q</html:a> <html:a id="187" href="../000T/index.xml#175" class="Bound">p</html:a><html:a id="188" class="Symbol"><![CDATA[)]]></html:a>
+
+<html:a id="example1" /><html:a id="191" href="../000T/index.xml#191" class="Function">example1</html:a> <html:a id="200" class="Symbol">:</html:a> <html:a id="202" href="../000A/index.xml#1390" class="Function Operator">¬</html:a><html:a id="203" class="Symbol"><![CDATA[(]]></html:a><html:a id="204" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="206" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="208" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="210" href="../000A/index.xml#742" class="Generalizable">P</html:a><html:a id="211" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="213" href="../000T/index.xml#191" class="Function">example1</html:a> <html:a id="222" class="Symbol"><![CDATA[(]]></html:a><html:a id="223" href="../000T/index.xml#223" class="Bound">p</html:a> <html:a id="225" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="227" href="../000T/index.xml#227" class="Bound">np</html:a><html:a id="229" class="Symbol"><![CDATA[)]]></html:a> <html:a id="231" class="Symbol">=</html:a> <html:a id="233" href="../000T/index.xml#227" class="Bound">np</html:a> <html:a id="236" href="../000T/index.xml#223" class="Bound">p</html:a>
+
+<html:a id="example2" /><html:a id="239" href="../000T/index.xml#239" class="Function">example2</html:a> <html:a id="248" class="Symbol">:</html:a> <html:a id="250" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="252" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="254" class="Symbol">→</html:a> <html:a id="256" class="Symbol"><![CDATA[(]]></html:a><html:a id="257" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="259" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="261" href="../000A/index.xml#960" class="Function">𝟘</html:a><html:a id="262" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="264" href="../000T/index.xml#239" class="Function">example2</html:a> <html:a id="273" href="../000T/index.xml#273" class="Bound">np</html:a> <html:a id="276" class="Symbol">=</html:a> <html:a id="278" href="../000T/index.xml#273" class="Bound">np</html:a> <html:a id="281" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="283" href="../000A/index.xml#971" class="Function">iter-𝟘</html:a>
+
+<html:a id="example3" /><html:a id="291" href="../000T/index.xml#291" class="Function">example3</html:a> <html:a id="300" class="Symbol">:</html:a> <html:a id="302" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="304" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="306" href="../000A/index.xml#199" class="Function">𝟙</html:a>
+<html:a id="308" href="../000T/index.xml#291" class="Function">example3</html:a> <html:a id="317" class="Symbol">=</html:a> <html:a id="319" class="Symbol"><![CDATA[(]]>λ</html:a> <html:a id="322" href="../000T/index.xml#322" class="Bound">_</html:a> <html:a id="324" class="Symbol">→</html:a> <html:a id="326" href="../000A/index.xml#167" class="InductiveConstructor">star</html:a><html:a id="330" class="Symbol"><![CDATA[)]]></html:a> <html:a id="332" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="334" href="../000A/index.xml#887" class="Function">iter-𝟙</html:a> <html:a id="341" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a>
+
+<html:a id="example4" /><html:a id="345" href="../000T/index.xml#345" class="Function">example4</html:a> <html:a id="354" class="Symbol">:</html:a> <html:a id="356" href="../000A/index.xml#1390" class="Function Operator">¬</html:a><html:a id="357" class="Symbol"><![CDATA[(]]></html:a><html:a id="358" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="360" href="../000A/index.xml#1436" class="Function Operator">↔</html:a> <html:a id="362" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="364" href="../000A/index.xml#742" class="Generalizable">P</html:a><html:a id="365" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="367" href="../000T/index.xml#345" class="Function">example4</html:a> <html:a id="376" class="Symbol"><![CDATA[{]]></html:a><html:a id="377" href="../000T/index.xml#377" class="Bound">P</html:a><html:a id="378" class="Symbol"><![CDATA[}]]></html:a> <html:a id="380" class="Symbol"><![CDATA[(]]></html:a><html:a id="381" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="385" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="387" href="../000T/index.xml#387" class="Bound">pnp</html:a><html:a id="390" class="Symbol"><![CDATA[)]]></html:a> <html:a id="392" class="Symbol">=</html:a> <html:a id="394" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="398" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="400" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="402" class="Keyword">where</html:a>
+    <html:a id="412" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="414" class="Symbol">:</html:a> <html:a id="416" href="../000T/index.xml#377" class="Bound">P</html:a>
+    <html:a id="422" href="../000T/index.xml#412" class="Function">p</html:a> <html:a id="424" class="Symbol">=</html:a> <html:a id="426" href="../000T/index.xml#387" class="Bound">pnp</html:a> <html:a id="430" class="Symbol">λ</html:a> <html:a id="432" href="../000T/index.xml#432" class="Bound">p₀</html:a> <html:a id="435" class="Symbol">→</html:a> <html:a id="437" href="../000T/index.xml#381" class="Bound">npp</html:a> <html:a id="441" href="../000T/index.xml#432" class="Bound">p₀</html:a> <html:a id="444" href="../000T/index.xml#432" class="Bound">p₀</html:a>
+
+<html:a id="example5" /><html:a id="448" href="../000T/index.xml#448" class="Function">example5</html:a> <html:a id="457" class="Symbol">:</html:a> <html:a id="459" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="461" class="Symbol"><![CDATA[(]]></html:a> <html:a id="463" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="465" href="../000A/index.xml#1511" class="Datatype Operator">⊎</html:a> <html:a id="467" href="../000T/index.xml#106" class="Generalizable">Q</html:a> <html:a id="469" class="Symbol"><![CDATA[)]]></html:a> <html:a id="471" class="Symbol">→</html:a> <html:a id="473" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="475" href="../000A/index.xml#742" class="Generalizable">P</html:a> <html:a id="477" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="479" href="../000A/index.xml#1390" class="Function Operator">¬</html:a> <html:a id="481" href="../000T/index.xml#106" class="Generalizable">Q</html:a>
+<html:a id="483" href="../000T/index.xml#448" class="Function">example5</html:a> <html:a id="492" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="497" class="Symbol">=</html:a> <html:a id="499" class="Symbol"><![CDATA[(]]>λ</html:a> <html:a id="502" href="../000T/index.xml#502" class="Bound">p</html:a> <html:a id="504" class="Symbol">→</html:a> <html:a id="506" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="511" class="Symbol"><![CDATA[(]]></html:a><html:a id="512" href="../000A/index.xml#1547" class="InductiveConstructor">inl</html:a> <html:a id="516" href="../000T/index.xml#502" class="Bound">p</html:a><html:a id="517" class="Symbol"><![CDATA[)]]><![CDATA[)]]></html:a> <html:a id="520" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="522" class="Symbol">λ</html:a> <html:a id="524" href="../000T/index.xml#524" class="Bound">q</html:a> <html:a id="526" class="Symbol">→</html:a> <html:a id="528" href="../000T/index.xml#492" class="Bound">¬P+Q</html:a> <html:a id="533" class="Symbol"><![CDATA[(]]></html:a><html:a id="534" href="../000A/index.xml#1565" class="InductiveConstructor">inr</html:a> <html:a id="538" href="../000T/index.xml#524" class="Bound">q</html:a><html:a id="539" class="Symbol"><![CDATA[)]]></html:a>
+
+</html:pre>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

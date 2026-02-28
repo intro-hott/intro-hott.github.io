@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>11</fr:month>
+      <fr:day>2</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/000J/</fr:uri>
+    <fr:display-uri>000J</fr:display-uri>
+    <fr:route>/000J/</fr:route>
+    <fr:title text="Successor function">
+      <html:code>Successor function</html:code>
+    </fr:title>
+    <fr:taxon>Code Fragment</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+    <html:pre class="Agda">
+
+<html:a id="307" class="Keyword">open</html:a> <html:a id="312" class="Keyword">import</html:a> <html:a id="319" href="Agda.Builtin.Nat.html" class="Module">Agda.Builtin.Nat</html:a> <html:a id="336" class="Keyword">renaming</html:a> <html:a id="345" class="Symbol"><![CDATA[(]]></html:a><html:a id="346" href="Agda.Builtin.Nat.html#192" class="Datatype">Nat</html:a> <html:a id="350" class="Symbol">to</html:a> <html:a id="353" class="Datatype">ℕ</html:a><html:a id="354" class="Symbol"><![CDATA[)]]></html:a>
+
+<html:a id="succ" /><html:a id="357" href="../000H/index.xml#357" class="Function">succ</html:a> <html:a id="362" class="Symbol">:</html:a> <html:a id="364" href="../000H/index.xml#353" class="Datatype">ℕ</html:a> <html:a id="366" class="Symbol">→</html:a> <html:a id="368" href="../000H/index.xml#353" class="Datatype">ℕ</html:a>
+<html:a id="370" href="../000H/index.xml#357" class="Function">succ</html:a> <html:a id="375" class="Symbol">=</html:a> <html:a id="377" class="Symbol">λ</html:a> <html:a id="379" href="../000H/index.xml#379" class="Bound">n</html:a> <html:a id="381" class="Symbol">→</html:a> <html:a id="383" href="../000H/index.xml#379" class="Bound">n</html:a> <html:a id="385" href="Agda.Builtin.Nat.html#325" class="Primitive Operator">+</html:a> <html:a id="387" class="Number">1</html:a>
+</html:pre>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>10</fr:month>
+              <fr:day>12</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000H/</fr:uri>
+            <fr:display-uri>000H</fr:display-uri>
+            <fr:route>/000H/</fr:route>
+            <fr:title text="sandbox-04.agda">
+              <html:code>sandbox-04.agda</html:code>
+            </fr:title>
+            <fr:taxon>Code File</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+<html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="../000H/index.xml" class="Module">sandbox-04</html:a> <html:a id="48" class="Keyword">where</html:a>
+
+<html:a id="55" class="Keyword">import</html:a> <html:a id="62" href="../000A/index.xml" class="Module">01-simpleTT</html:a>
+<html:a id="74" class="Keyword">open</html:a> <html:a id="79" href="../000A/index.xml" class="Module">01-simpleTT</html:a> <html:a id="91" class="Keyword">public</html:a>
+</html:pre>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/000I/</fr:uri>
+                <fr:display-uri>000I</fr:display-uri>
+                <fr:route>/000I/</fr:route>
+                <fr:title text="Umbrella example">
+                  <html:code>Umbrella example</html:code>
+                </fr:title>
+                <fr:taxon>Code Fragment</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+                <html:pre class="Agda">
+<html:a id="99" class="Keyword">postulate</html:a>
+    <html:a id="itRains" /><html:a id="113" href="../000H/index.xml#113" class="Postulate">itRains</html:a> <html:a id="itPours" /><html:a id="121" href="../000H/index.xml#121" class="Postulate">itPours</html:a> <html:a id="IGetDrenched" /><html:a id="129" href="../000H/index.xml#129" class="Postulate">IGetDrenched</html:a> <html:a id="142" class="Symbol">:</html:a> <html:a id="144" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="149" href="Agda.Primitive.html#764" class="Primitive">lzero</html:a>
+    <html:a id="theOldAdage" /><html:a id="159" href="../000H/index.xml#159" class="Postulate">theOldAdage</html:a> <html:a id="171" class="Symbol">:</html:a> <html:a id="173" href="../000H/index.xml#113" class="Postulate">itRains</html:a> <html:a id="181" class="Symbol">→</html:a> <html:a id="183" href="../000H/index.xml#121" class="Postulate">itPours</html:a> 
+    <html:a id="noUmbrella" /><html:a id="196" href="../000H/index.xml#196" class="Postulate">noUmbrella</html:a> <html:a id="207" class="Symbol">:</html:a> <html:a id="209" href="../000H/index.xml#121" class="Postulate">itPours</html:a> <html:a id="217" class="Symbol">→</html:a> <html:a id="219" href="../000H/index.xml#129" class="Postulate">IGetDrenched</html:a>
+
+<html:a id="badNews" /><html:a id="233" href="../000H/index.xml#233" class="Function">badNews</html:a> <html:a id="241" class="Symbol">:</html:a> <html:a id="243" href="../000H/index.xml#113" class="Postulate">itRains</html:a> <html:a id="251" class="Symbol">→</html:a> <html:a id="253" href="../000H/index.xml#129" class="Postulate">IGetDrenched</html:a>
+<html:a id="266" href="../000H/index.xml#233" class="Function">badNews</html:a> <html:a id="274" href="../000H/index.xml#274" class="Bound">p</html:a> <html:a id="276" class="Symbol">=</html:a> <html:a id="278" href="../000H/index.xml#196" class="Postulate">noUmbrella</html:a> <html:a id="289" class="Symbol"><![CDATA[(]]></html:a><html:a id="290" href="../000H/index.xml#159" class="Postulate">theOldAdage</html:a> <html:a id="302" href="../000H/index.xml#274" class="Bound">p</html:a><html:a id="303" class="Symbol"><![CDATA[)]]></html:a>
+</html:pre>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>11</fr:month>
+                  <fr:day>2</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/000J/</fr:uri>
+                <fr:display-uri>000J</fr:display-uri>
+                <fr:route>/000J/</fr:route>
+                <fr:title text="Successor function">
+                  <html:code>Successor function</html:code>
+                </fr:title>
+                <fr:taxon>Code Fragment</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+                <html:pre class="Agda">
+
+<html:a id="307" class="Keyword">open</html:a> <html:a id="312" class="Keyword">import</html:a> <html:a id="319" href="Agda.Builtin.Nat.html" class="Module">Agda.Builtin.Nat</html:a> <html:a id="336" class="Keyword">renaming</html:a> <html:a id="345" class="Symbol"><![CDATA[(]]></html:a><html:a id="346" href="Agda.Builtin.Nat.html#192" class="Datatype">Nat</html:a> <html:a id="350" class="Symbol">to</html:a> <html:a id="353" class="Datatype">ℕ</html:a><html:a id="354" class="Symbol"><![CDATA[)]]></html:a>
+
+<html:a id="succ" /><html:a id="357" href="../000H/index.xml#357" class="Function">succ</html:a> <html:a id="362" class="Symbol">:</html:a> <html:a id="364" href="../000H/index.xml#353" class="Datatype">ℕ</html:a> <html:a id="366" class="Symbol">→</html:a> <html:a id="368" href="../000H/index.xml#353" class="Datatype">ℕ</html:a>
+<html:a id="370" href="../000H/index.xml#357" class="Function">succ</html:a> <html:a id="375" class="Symbol">=</html:a> <html:a id="377" class="Symbol">λ</html:a> <html:a id="379" href="../000H/index.xml#379" class="Bound">n</html:a> <html:a id="381" class="Symbol">→</html:a> <html:a id="383" href="../000H/index.xml#379" class="Bound">n</html:a> <html:a id="385" href="Agda.Builtin.Nat.html#325" class="Primitive Operator">+</html:a> <html:a id="387" class="Number">1</html:a>
+</html:pre>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>11</fr:month>
+              <fr:day>2</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no4.part1.mentions</fr:uri>
+            <fr:display-uri>no4.part1.mentions</fr:display-uri>
+            <fr:route>/no4.part1.mentions</fr:route>
+            <fr:title text="Mentions">Mentions</fr:title>
+            <fr:taxon>Resource</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li>08:10: <fr:link href="/000L/" title="Basic logical principles (using λ-abstraction)" uri="https://intro-hott.video/000L/" display-uri="000L" type="local">Basic logical principles (using λ-abstraction)</fr:link></html:li>
+   <html:li>11:49: <fr:link href="/000J/" title="Successor function" uri="https://intro-hott.video/000J/" display-uri="000J" type="local">Successor function</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

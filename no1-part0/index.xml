@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/no1-part0/</fr:uri>
+    <fr:display-uri>no1-part0</fr:display-uri>
+    <fr:route>/no1-part0/</fr:route>
+    <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+    <fr:taxon>Video</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:style>h1 {
+  color: var(--HoTTred);
+}</html:style>
+    <html:div class="headerBar" style="background-image:url(/bafkrmiaknnwy6jwzgbwzezh6ky7aqof6ta4sdzxdmcftqotk4kkazecby4.png);" />
+    <html:p>
+      <fr:link href="https://www.youtube.com/watch?v=Fn12iWcJDwE&amp;list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" type="external">video</fr:link>
+    </html:p>
+    <html:iframe src="https://www.youtube.com/embed/Fn12iWcJDwE?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+    <html:div style="background-image:url(/bafkrmiaknnwy6jwzgbwzezh6ky7aqof6ta4sdzxdmcftqotk4kkazecby4.png);">
+<html:p>What does homotopy type theory mean? This is a question which has three distinct answers, connecting the language of HoTT to the rich worlds of functional programming, homotopy theory, and constructive logic.</html:p>
+</html:div>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2025</fr:year>
+          <fr:month>11</fr:month>
+          <fr:day>17</fr:day>
+        </fr:date>
+        <fr:uri>https://intro-hott.video/0001/</fr:uri>
+        <fr:display-uri>0001</fr:display-uri>
+        <fr:route>/0001/</fr:route>
+        <fr:title text="𝟚-Formation &amp; 𝟚-Introduction">
+          <html:code>𝟚-Formation &amp; 𝟚-Introduction</html:code>
+        </fr:title>
+        <fr:taxon>Code Fragment</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+        <html:pre class="Agda"><html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="sandbox-05.html" class="Module">sandbox-05</html:a> <html:a id="48" class="Keyword">where</html:a>
+
+<html:a id="55" class="Keyword">open</html:a> <html:a id="60" class="Keyword">import</html:a> <html:a id="67" href="01-simpleTT.html" class="Module">01-simpleTT</html:a> <html:a id="79" class="Keyword">public</html:a>
+<html:a id="86" class="Keyword">open</html:a> <html:a id="91" href="01-simpleTT.html1017" class="Module Operator">_×_</html:a>
+
+<html:a id="96" class="Keyword">data</html:a> <html:a id="Suit" /><html:a id="101" href="#101" class="Datatype">Suit</html:a> <html:a id="106" class="Symbol">:</html:a> <html:a id="108" href="00-preamble.html143" class="Function">Type</html:a> <html:a id="113" href="Agda.Primitive.html764" class="Primitive">lzero</html:a> <html:a id="119" class="Keyword">where</html:a> 
+    <html:a id="136" href="#136" class="InductiveConstructor">♦</html:a>  <html:a id="139" class="Symbol">:</html:a> <html:a id="141" href="#101" class="Datatype">Suit</html:a> 
+
+<html:a id="148" class="Keyword">data</html:a> <html:a id="Rank" /><html:a id="153" href="#153" class="Datatype">Rank</html:a> <html:a id="158" class="Symbol">:</html:a> <html:a id="160" href="00-preamble.html143" class="Function">Type</html:a> <html:a id="165" href="Agda.Primitive.html764" class="Primitive">lzero</html:a> <html:a id="171" class="Keyword">where</html:a>
+    <html:a id="Rank.Ace" /><html:a id="181" href="#181" class="InductiveConstructor">Ace</html:a> <html:a id="Rank.King" /><html:a id="185" href="#185" class="InductiveConstructor">King</html:a> <html:a id="Rank.Queen" /><html:a id="190" href="#190" class="InductiveConstructor">Queen</html:a> <html:a id="Rank.Jack" /><html:a id="196" href="#196" class="InductiveConstructor">Jack</html:a> <html:a id="Rank.Ten" /><html:a id="201" href="#201" class="InductiveConstructor">Ten</html:a> <html:a id="Rank.Nine" /><html:a id="205" href="#205" class="InductiveConstructor">Nine</html:a> <html:a id="Rank.Eight" /><html:a id="210" href="#210" class="InductiveConstructor">Eight</html:a> <html:a id="Rank.Seven" /><html:a id="216" href="#216" class="InductiveConstructor">Seven</html:a> <html:a id="Rank.Six" /><html:a id="222" href="#222" class="InductiveConstructor">Six</html:a> <html:a id="Rank.Five" /><html:a id="226" href="#226" class="InductiveConstructor">Five</html:a> <html:a id="Rank.Four" /><html:a id="231" href="#231" class="InductiveConstructor">Four</html:a> <html:a id="Rank.Three" /><html:a id="236" href="#236" class="InductiveConstructor">Three</html:a> <html:a id="Rank.Two" /><html:a id="242" href="#242" class="InductiveConstructor">Two</html:a> <html:a id="246" class="Symbol">:</html:a> <html:a id="248" href="#153" class="Datatype">Rank</html:a>
+
+<html:a id="254" class="Keyword">data</html:a> <html:a id="Color3" /><html:a id="259" href="#259" class="Datatype">Color3</html:a> <html:a id="266" class="Symbol">:</html:a> <html:a id="268" href="00-preamble.html143" class="Function">Type</html:a> <html:a id="273" href="Agda.Primitive.html764" class="Primitive">lzero</html:a> <html:a id="279" class="Keyword">where</html:a>
+    <html:a id="Color3.Red" /><html:a id="289" href="#289" class="InductiveConstructor">Red</html:a> <html:a id="Color3.Green" /><html:a id="293" href="#293" class="InductiveConstructor">Green</html:a> <html:a id="Color3.Blue" /><html:a id="299" href="#299" class="InductiveConstructor">Blue</html:a> <html:a id="304" class="Symbol">:</html:a> <html:a id="306" href="#259" class="Datatype">Color3</html:a>
+
+<html:a id="example" /><html:a id="314" href="#314" class="Function">example</html:a> <html:a id="322" class="Symbol">:</html:a> <html:a id="324" href="#153" class="Datatype">Rank</html:a> <html:a id="329" href="01-simpleTT.html1017" class="Record Operator">×</html:a> <html:a id="331" href="#101" class="Datatype">Suit</html:a> <html:a id="336" class="Symbol">→</html:a> <html:a id="338" href="#259" class="Datatype">Color3</html:a>
+<html:a id="345" href="#314" class="Function">example</html:a> <html:a id="353" class="Symbol"><![CDATA[(]]></html:a><html:a id="354" href="#181" class="InductiveConstructor">Ace</html:a> <html:a id="358" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="360" href="#130" class="InductiveConstructor">♠</html:a><html:a id="361" class="Symbol"><![CDATA[)]]></html:a> <html:a id="363" class="Symbol">=</html:a> <html:a id="365" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="371" href="#314" class="Function">example</html:a> <html:a id="379" class="Symbol"><![CDATA[(]]></html:a><html:a id="380" href="#185" class="InductiveConstructor">King</html:a> <html:a id="385" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="387" href="#130" class="InductiveConstructor">♠</html:a><html:a id="388" class="Symbol"><![CDATA[)]]></html:a> <html:a id="390" class="Symbol">=</html:a> <html:a id="392" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="396" href="#314" class="Function">example</html:a> <html:a id="404" class="Symbol"><![CDATA[(]]></html:a><html:a id="405" href="#190" class="InductiveConstructor">Queen</html:a> <html:a id="411" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="413" href="#130" class="InductiveConstructor">♠</html:a><html:a id="414" class="Symbol"><![CDATA[)]]></html:a> <html:a id="416" class="Symbol">=</html:a> <html:a id="418" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="423" href="#314" class="Function">example</html:a> <html:a id="431" class="Symbol"><![CDATA[(]]></html:a><html:a id="432" href="#196" class="InductiveConstructor">Jack</html:a> <html:a id="437" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="439" href="#130" class="InductiveConstructor">♠</html:a><html:a id="440" class="Symbol"><![CDATA[)]]></html:a> <html:a id="442" class="Symbol">=</html:a> <html:a id="444" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="448" href="#314" class="Function">example</html:a> <html:a id="456" class="Symbol"><![CDATA[(]]></html:a><html:a id="457" href="#201" class="InductiveConstructor">Ten</html:a> <html:a id="461" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="463" href="#130" class="InductiveConstructor">♠</html:a><html:a id="464" class="Symbol"><![CDATA[)]]></html:a> <html:a id="466" class="Symbol">=</html:a> <html:a id="468" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="473" href="#314" class="Function">example</html:a> <html:a id="481" class="Symbol"><![CDATA[(]]></html:a><html:a id="482" href="#205" class="InductiveConstructor">Nine</html:a> <html:a id="487" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="489" href="#130" class="InductiveConstructor">♠</html:a><html:a id="490" class="Symbol"><![CDATA[)]]></html:a> <html:a id="492" class="Symbol">=</html:a> <html:a id="494" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="499" href="#314" class="Function">example</html:a> <html:a id="507" class="Symbol"><![CDATA[(]]></html:a><html:a id="508" href="#210" class="InductiveConstructor">Eight</html:a> <html:a id="514" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="516" href="#130" class="InductiveConstructor">♠</html:a><html:a id="517" class="Symbol"><![CDATA[)]]></html:a> <html:a id="519" class="Symbol">=</html:a> <html:a id="521" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="525" href="#314" class="Function">example</html:a> <html:a id="533" class="Symbol"><![CDATA[(]]></html:a><html:a id="534" href="#216" class="InductiveConstructor">Seven</html:a> <html:a id="540" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="542" href="#130" class="InductiveConstructor">♠</html:a><html:a id="543" class="Symbol"><![CDATA[)]]></html:a> <html:a id="545" class="Symbol">=</html:a> <html:a id="547" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="551" href="#314" class="Function">example</html:a> <html:a id="559" class="Symbol"><![CDATA[(]]></html:a><html:a id="560" href="#222" class="InductiveConstructor">Six</html:a> <html:a id="564" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="566" href="#130" class="InductiveConstructor">♠</html:a><html:a id="567" class="Symbol"><![CDATA[)]]></html:a> <html:a id="569" class="Symbol">=</html:a> <html:a id="571" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="576" href="#314" class="Function">example</html:a> <html:a id="584" class="Symbol"><![CDATA[(]]></html:a><html:a id="585" href="#226" class="InductiveConstructor">Five</html:a> <html:a id="590" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="592" href="#130" class="InductiveConstructor">♠</html:a><html:a id="593" class="Symbol"><![CDATA[)]]></html:a> <html:a id="595" class="Symbol">=</html:a> <html:a id="597" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="603" href="#314" class="Function">example</html:a> <html:a id="611" class="Symbol"><![CDATA[(]]></html:a><html:a id="612" href="#231" class="InductiveConstructor">Four</html:a> <html:a id="617" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="619" href="#130" class="InductiveConstructor">♠</html:a><html:a id="620" class="Symbol"><![CDATA[)]]></html:a> <html:a id="622" class="Symbol">=</html:a> <html:a id="624" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="629" href="#314" class="Function">example</html:a> <html:a id="637" class="Symbol"><![CDATA[(]]></html:a><html:a id="638" href="#236" class="InductiveConstructor">Three</html:a> <html:a id="644" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="646" href="#130" class="InductiveConstructor">♠</html:a><html:a id="647" class="Symbol"><![CDATA[)]]></html:a> <html:a id="649" class="Symbol">=</html:a> <html:a id="651" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="655" href="#314" class="Function">example</html:a> <html:a id="663" class="Symbol"><![CDATA[(]]></html:a><html:a id="664" href="#242" class="InductiveConstructor">Two</html:a> <html:a id="668" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="670" href="#130" class="InductiveConstructor">♠</html:a><html:a id="671" class="Symbol"><![CDATA[)]]></html:a> <html:a id="673" class="Symbol">=</html:a> <html:a id="675" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="680" href="#314" class="Function">example</html:a> <html:a id="688" class="Symbol"><![CDATA[(]]></html:a><html:a id="689" href="#181" class="InductiveConstructor">Ace</html:a> <html:a id="693" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="695" href="#132" class="InductiveConstructor">♥</html:a><html:a id="696" class="Symbol"><![CDATA[)]]></html:a> <html:a id="698" class="Symbol">=</html:a> <html:a id="700" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="704" href="#314" class="Function">example</html:a> <html:a id="712" class="Symbol"><![CDATA[(]]></html:a><html:a id="713" href="#185" class="InductiveConstructor">King</html:a> <html:a id="718" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="720" href="#132" class="InductiveConstructor">♥</html:a><html:a id="721" class="Symbol"><![CDATA[)]]></html:a> <html:a id="723" class="Symbol">=</html:a> <html:a id="725" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="730" href="#314" class="Function">example</html:a> <html:a id="738" class="Symbol"><![CDATA[(]]></html:a><html:a id="739" href="#190" class="InductiveConstructor">Queen</html:a> <html:a id="745" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="747" href="#132" class="InductiveConstructor">♥</html:a><html:a id="748" class="Symbol"><![CDATA[)]]></html:a> <html:a id="750" class="Symbol">=</html:a> <html:a id="752" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="756" href="#314" class="Function">example</html:a> <html:a id="764" class="Symbol"><![CDATA[(]]></html:a><html:a id="765" href="#196" class="InductiveConstructor">Jack</html:a> <html:a id="770" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="772" href="#132" class="InductiveConstructor">♥</html:a><html:a id="773" class="Symbol"><![CDATA[)]]></html:a> <html:a id="775" class="Symbol">=</html:a> <html:a id="777" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="782" href="#314" class="Function">example</html:a> <html:a id="790" class="Symbol"><![CDATA[(]]></html:a><html:a id="791" href="#201" class="InductiveConstructor">Ten</html:a> <html:a id="795" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="797" href="#132" class="InductiveConstructor">♥</html:a><html:a id="798" class="Symbol"><![CDATA[)]]></html:a> <html:a id="800" class="Symbol">=</html:a> <html:a id="802" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="807" href="#314" class="Function">example</html:a> <html:a id="815" class="Symbol"><![CDATA[(]]></html:a><html:a id="816" href="#205" class="InductiveConstructor">Nine</html:a> <html:a id="821" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="823" href="#132" class="InductiveConstructor">♥</html:a><html:a id="824" class="Symbol"><![CDATA[)]]></html:a> <html:a id="826" class="Symbol">=</html:a> <html:a id="828" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="833" href="#314" class="Function">example</html:a> <html:a id="841" class="Symbol"><![CDATA[(]]></html:a><html:a id="842" href="#210" class="InductiveConstructor">Eight</html:a> <html:a id="848" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="850" href="#132" class="InductiveConstructor">♥</html:a><html:a id="851" class="Symbol"><![CDATA[)]]></html:a> <html:a id="853" class="Symbol">=</html:a> <html:a id="855" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="861" href="#314" class="Function">example</html:a> <html:a id="869" class="Symbol"><![CDATA[(]]></html:a><html:a id="870" href="#216" class="InductiveConstructor">Seven</html:a> <html:a id="876" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="878" href="#132" class="InductiveConstructor">♥</html:a><html:a id="879" class="Symbol"><![CDATA[)]]></html:a> <html:a id="881" class="Symbol">=</html:a> <html:a id="883" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="889" href="#314" class="Function">example</html:a> <html:a id="897" class="Symbol"><![CDATA[(]]></html:a><html:a id="898" href="#222" class="InductiveConstructor">Six</html:a> <html:a id="902" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="904" href="#132" class="InductiveConstructor">♥</html:a><html:a id="905" class="Symbol"><![CDATA[)]]></html:a> <html:a id="907" class="Symbol">=</html:a> <html:a id="909" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="915" href="#314" class="Function">example</html:a> <html:a id="923" class="Symbol"><![CDATA[(]]></html:a><html:a id="924" href="#226" class="InductiveConstructor">Five</html:a> <html:a id="929" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="931" href="#132" class="InductiveConstructor">♥</html:a><html:a id="932" class="Symbol"><![CDATA[)]]></html:a> <html:a id="934" class="Symbol">=</html:a> <html:a id="936" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="941" href="#314" class="Function">example</html:a> <html:a id="949" class="Symbol"><![CDATA[(]]></html:a><html:a id="950" href="#231" class="InductiveConstructor">Four</html:a> <html:a id="955" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="957" href="#132" class="InductiveConstructor">♥</html:a><html:a id="958" class="Symbol"><![CDATA[)]]></html:a> <html:a id="960" class="Symbol">=</html:a> <html:a id="962" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="967" href="#314" class="Function">example</html:a> <html:a id="975" class="Symbol"><![CDATA[(]]></html:a><html:a id="976" href="#236" class="InductiveConstructor">Three</html:a> <html:a id="982" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="984" href="#132" class="InductiveConstructor">♥</html:a><html:a id="985" class="Symbol"><![CDATA[)]]></html:a> <html:a id="987" class="Symbol">=</html:a> <html:a id="989" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="993" href="#314" class="Function">example</html:a> <html:a id="1001" class="Symbol"><![CDATA[(]]></html:a><html:a id="1002" href="#242" class="InductiveConstructor">Two</html:a> <html:a id="1006" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1008" href="#132" class="InductiveConstructor">♥</html:a><html:a id="1009" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1011" class="Symbol">=</html:a> <html:a id="1013" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1018" href="#314" class="Function">example</html:a> <html:a id="1026" class="Symbol"><![CDATA[(]]></html:a><html:a id="1027" href="#181" class="InductiveConstructor">Ace</html:a> <html:a id="1031" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1033" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1034" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1036" class="Symbol">=</html:a> <html:a id="1038" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1044" href="#314" class="Function">example</html:a> <html:a id="1052" class="Symbol"><![CDATA[(]]></html:a><html:a id="1053" href="#185" class="InductiveConstructor">King</html:a> <html:a id="1058" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1060" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1061" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1063" class="Symbol">=</html:a> <html:a id="1065" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1071" href="#314" class="Function">example</html:a> <html:a id="1079" class="Symbol"><![CDATA[(]]></html:a><html:a id="1080" href="#190" class="InductiveConstructor">Queen</html:a> <html:a id="1086" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1088" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1089" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1091" class="Symbol">=</html:a> <html:a id="1093" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1099" href="#314" class="Function">example</html:a> <html:a id="1107" class="Symbol"><![CDATA[(]]></html:a><html:a id="1108" href="#196" class="InductiveConstructor">Jack</html:a> <html:a id="1113" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1115" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1116" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1118" class="Symbol">=</html:a> <html:a id="1120" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1126" href="#314" class="Function">example</html:a> <html:a id="1134" class="Symbol"><![CDATA[(]]></html:a><html:a id="1135" href="#201" class="InductiveConstructor">Ten</html:a> <html:a id="1139" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1141" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1142" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1144" class="Symbol">=</html:a> <html:a id="1146" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1151" href="#314" class="Function">example</html:a> <html:a id="1159" class="Symbol"><![CDATA[(]]></html:a><html:a id="1160" href="#205" class="InductiveConstructor">Nine</html:a> <html:a id="1165" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1167" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1168" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1170" class="Symbol">=</html:a> <html:a id="1172" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1177" href="#314" class="Function">example</html:a> <html:a id="1185" class="Symbol"><![CDATA[(]]></html:a><html:a id="1186" href="#210" class="InductiveConstructor">Eight</html:a> <html:a id="1192" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1194" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1195" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1197" class="Symbol">=</html:a> <html:a id="1199" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1203" href="#314" class="Function">example</html:a> <html:a id="1211" class="Symbol"><![CDATA[(]]></html:a><html:a id="1212" href="#216" class="InductiveConstructor">Seven</html:a> <html:a id="1218" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1220" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1221" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1223" class="Symbol">=</html:a> <html:a id="1225" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1229" href="#314" class="Function">example</html:a> <html:a id="1237" class="Symbol"><![CDATA[(]]></html:a><html:a id="1238" href="#222" class="InductiveConstructor">Six</html:a> <html:a id="1242" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1244" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1245" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1247" class="Symbol">=</html:a> <html:a id="1249" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1253" href="#314" class="Function">example</html:a> <html:a id="1261" class="Symbol"><![CDATA[(]]></html:a><html:a id="1262" href="#226" class="InductiveConstructor">Five</html:a> <html:a id="1267" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1269" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1270" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1272" class="Symbol">=</html:a> <html:a id="1274" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1278" href="#314" class="Function">example</html:a> <html:a id="1286" class="Symbol"><![CDATA[(]]></html:a><html:a id="1287" href="#231" class="InductiveConstructor">Four</html:a> <html:a id="1292" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1294" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1295" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1297" class="Symbol">=</html:a> <html:a id="1299" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1303" href="#314" class="Function">example</html:a> <html:a id="1311" class="Symbol"><![CDATA[(]]></html:a><html:a id="1312" href="#236" class="InductiveConstructor">Three</html:a> <html:a id="1318" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1320" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1321" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1323" class="Symbol">=</html:a> <html:a id="1325" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1329" href="#314" class="Function">example</html:a> <html:a id="1337" class="Symbol"><![CDATA[(]]></html:a><html:a id="1338" href="#242" class="InductiveConstructor">Two</html:a> <html:a id="1342" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1344" href="#134" class="InductiveConstructor">♣</html:a><html:a id="1345" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1347" class="Symbol">=</html:a> <html:a id="1349" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1355" href="#314" class="Function">example</html:a> <html:a id="1363" class="Symbol"><![CDATA[(]]></html:a><html:a id="1364" href="#181" class="InductiveConstructor">Ace</html:a> <html:a id="1368" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1370" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1371" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1373" class="Symbol">=</html:a> <html:a id="1375" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1379" href="#314" class="Function">example</html:a> <html:a id="1387" class="Symbol"><![CDATA[(]]></html:a><html:a id="1388" href="#185" class="InductiveConstructor">King</html:a> <html:a id="1393" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1395" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1396" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1398" class="Symbol">=</html:a> <html:a id="1400" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1405" href="#314" class="Function">example</html:a> <html:a id="1413" class="Symbol"><![CDATA[(]]></html:a><html:a id="1414" href="#190" class="InductiveConstructor">Queen</html:a> <html:a id="1420" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1422" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1423" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1425" class="Symbol">=</html:a> <html:a id="1427" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1432" href="#314" class="Function">example</html:a> <html:a id="1440" class="Symbol"><![CDATA[(]]></html:a><html:a id="1441" href="#196" class="InductiveConstructor">Jack</html:a> <html:a id="1446" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1448" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1449" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1451" class="Symbol">=</html:a> <html:a id="1453" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1459" href="#314" class="Function">example</html:a> <html:a id="1467" class="Symbol"><![CDATA[(]]></html:a><html:a id="1468" href="#201" class="InductiveConstructor">Ten</html:a> <html:a id="1472" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1474" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1475" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1477" class="Symbol">=</html:a> <html:a id="1479" href="#289" class="InductiveConstructor">Red</html:a>
+<html:a id="1483" href="#314" class="Function">example</html:a> <html:a id="1491" class="Symbol"><![CDATA[(]]></html:a><html:a id="1492" href="#205" class="InductiveConstructor">Nine</html:a> <html:a id="1497" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1499" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1500" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1502" class="Symbol">=</html:a> <html:a id="1504" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1509" href="#314" class="Function">example</html:a> <html:a id="1517" class="Symbol"><![CDATA[(]]></html:a><html:a id="1518" href="#210" class="InductiveConstructor">Eight</html:a> <html:a id="1524" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1526" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1527" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1529" class="Symbol">=</html:a> <html:a id="1531" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1537" href="#314" class="Function">example</html:a> <html:a id="1545" class="Symbol"><![CDATA[(]]></html:a><html:a id="1546" href="#216" class="InductiveConstructor">Seven</html:a> <html:a id="1552" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1554" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1555" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1557" class="Symbol">=</html:a> <html:a id="1559" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1564" href="#314" class="Function">example</html:a> <html:a id="1572" class="Symbol"><![CDATA[(]]></html:a><html:a id="1573" href="#222" class="InductiveConstructor">Six</html:a> <html:a id="1577" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1579" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1580" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1582" class="Symbol">=</html:a> <html:a id="1584" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1590" href="#314" class="Function">example</html:a> <html:a id="1598" class="Symbol"><![CDATA[(]]></html:a><html:a id="1599" href="#226" class="InductiveConstructor">Five</html:a> <html:a id="1604" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1606" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1607" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1609" class="Symbol">=</html:a> <html:a id="1611" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1616" href="#314" class="Function">example</html:a> <html:a id="1624" class="Symbol"><![CDATA[(]]></html:a><html:a id="1625" href="#231" class="InductiveConstructor">Four</html:a> <html:a id="1630" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1632" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1633" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1635" class="Symbol">=</html:a> <html:a id="1637" href="#293" class="InductiveConstructor">Green</html:a>
+<html:a id="1643" href="#314" class="Function">example</html:a> <html:a id="1651" class="Symbol"><![CDATA[(]]></html:a><html:a id="1652" href="#236" class="InductiveConstructor">Three</html:a> <html:a id="1658" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1660" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1661" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1663" class="Symbol">=</html:a> <html:a id="1665" href="#299" class="InductiveConstructor">Blue</html:a>
+<html:a id="1670" href="#314" class="Function">example</html:a> <html:a id="1678" class="Symbol"><![CDATA[(]]></html:a><html:a id="1679" href="#242" class="InductiveConstructor">Two</html:a> <html:a id="1683" href="01-simpleTT.html1065" class="InductiveConstructor Operator">,</html:a> <html:a id="1685" href="#136" class="InductiveConstructor">♦</html:a><html:a id="1686" class="Symbol"><![CDATA[)]]></html:a> <html:a id="1688" class="Symbol">=</html:a> <html:a id="1690" href="#293" class="InductiveConstructor">Green</html:a>
+
+<html:a id="f" /><html:a id="1697" href="#1697" class="Function">f</html:a> <html:a id="1699" class="Symbol">:</html:a> <html:a id="1701" href="01-simpleTT.html334" class="Function">𝟚</html:a> <html:a id="1703" class="Symbol">→</html:a> <html:a id="1705" href="#153" class="Datatype">Rank</html:a>
+<html:a id="1710" href="#1697" class="Function">f</html:a> <html:a id="1712" href="01-simpleTT.html319" class="InductiveConstructor">on</html:a> <html:a id="1715" class="Symbol">=</html:a> <html:a id="1717" href="#185" class="InductiveConstructor">King</html:a>
+<html:a id="1722" href="#1697" class="Function">f</html:a> <html:a id="1724" href="01-simpleTT.html322" class="InductiveConstructor">off</html:a> <html:a id="1728" class="Symbol">=</html:a> <html:a id="1730" href="#190" class="InductiveConstructor">Queen</html:a>
+<html:a id="g" /><html:a id="1736" href="#1736" class="Function">g</html:a> <html:a id="1738" class="Symbol">:</html:a> <html:a id="1740" href="01-simpleTT.html334" class="Function">𝟚</html:a> <html:a id="1742" class="Symbol">→</html:a> <html:a id="1744" href="#101" class="Datatype">Suit</html:a>
+<html:a id="1749" href="#1736" class="Function">g</html:a> <html:a id="1751" href="01-simpleTT.html319" class="InductiveConstructor">on</html:a> <html:a id="1754" class="Symbol">=</html:a> <html:a id="1756" href="#136" class="InductiveConstructor">♦</html:a>
+<html:a id="1758" href="#1736" class="Function">g</html:a> <html:a id="1760" href="01-simpleTT.html322" class="InductiveConstructor">off</html:a> <html:a id="1764" class="Symbol">=</html:a> <html:a id="1766" href="#134" class="InductiveConstructor">♣</html:a></html:pre>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+        <fr:display-uri>resources-formalization</fr:display-uri>
+        <fr:route>/resources-formalization/</fr:route>
+        <fr:title text="Formalization Links">Formalization Links</fr:title>
+        <fr:taxon>Resource</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+        <fr:display-uri>resources-textbook</fr:display-uri>
+        <fr:route>/resources-textbook/</fr:route>
+        <fr:title text="Formalization Links">Formalization Links</fr:title>
+        <fr:taxon>Resource</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

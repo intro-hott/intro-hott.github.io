@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/0009/</fr:uri>
+    <fr:display-uri>0009</fr:display-uri>
+    <fr:route>/0009/</fr:route>
+    <fr:title text="00-preamble.agda">
+      <html:code>00-preamble.agda</html:code>
+    </fr:title>
+    <fr:taxon>Code File</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+    <html:pre class="Agda"><html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="../0009" class="Module">00-preamble</html:a> <html:a id="49" class="Keyword">where</html:a>
+
+<html:a id="56" class="Keyword">open</html:a> <html:a id="61" class="Keyword">import</html:a> <html:a id="68" href="Agda.Primitive.html" class="Module">Agda.Primitive</html:a> <html:a id="83" class="Keyword">using</html:a> <html:a id="89" class="Symbol"><![CDATA[(]]></html:a><html:a id="90" href="Agda.Primitive.html#597" class="Postulate">Level</html:a><html:a id="95" class="Symbol">;</html:a> <html:a id="97" href="Agda.Primitive.html#764" class="Primitive">lzero</html:a><html:a id="102" class="Symbol">;</html:a> <html:a id="104" href="Agda.Primitive.html#780" class="Primitive">lsuc</html:a><html:a id="108" class="Symbol">;</html:a> <html:a id="110" href="Agda.Primitive.html#810" class="Primitive Operator">_⊔_</html:a><html:a id="113" class="Symbol"><![CDATA[)]]></html:a> <html:a id="115" class="Keyword">public</html:a>
+
+<html:a id="123" class="Keyword">variable</html:a> <html:a id="132" href="../0009#132" class="Generalizable">ℓ</html:a> <html:a id="134" class="Symbol">:</html:a> <html:a id="136" href="Agda.Primitive.html#597" class="Postulate">Level</html:a>
+
+<html:a id="Type" /><html:a id="143" href="../0009#143" class="Function">Type</html:a> <html:a id="148" class="Symbol">:</html:a> <html:a id="150" class="Symbol"><![CDATA[(]]></html:a><html:a id="151" href="../0009#151" class="Bound">ℓ</html:a> <html:a id="153" class="Symbol">:</html:a> <html:a id="155" href="Agda.Primitive.html#597" class="Postulate">Level</html:a><html:a id="160" class="Symbol"><![CDATA[)]]></html:a> <html:a id="162" class="Symbol">→</html:a> <html:a id="164" href="Agda.Primitive.html#326" class="Primitive">Set</html:a> <html:a id="168" class="Symbol"><![CDATA[(]]></html:a><html:a id="169" href="Agda.Primitive.html#780" class="Primitive">lsuc</html:a> <html:a id="174" href="../0009#151" class="Bound">ℓ</html:a><html:a id="175" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="177" href="../0009#143" class="Function">Type</html:a> <html:a id="182" href="../0009#182" class="Bound">ℓ</html:a> <html:a id="184" class="Symbol">=</html:a> <html:a id="186" href="Agda.Primitive.html#326" class="Primitive">Set</html:a> <html:a id="190" href="../0009#182" class="Bound">ℓ</html:a>
+</html:pre>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/code.main</fr:uri>
+            <fr:display-uri>code.main</fr:display-uri>
+            <fr:route>/code.main</fr:route>
+            <fr:title text="Main Agda Files">Main Agda Files</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li><fr:link href="/0009/" title="00-preamble.agda" uri="https://intro-hott.video/0009/" display-uri="0009" type="local">00-preamble.agda</fr:link></html:li>
+<html:li><fr:link href="/000A/" title="01-simpleTT.agda" uri="https://intro-hott.video/000A/" display-uri="000A" type="local">01-simpleTT.agda</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no2.part1.mentions</fr:uri>
+            <fr:display-uri>no2.part1.mentions</fr:display-uri>
+            <fr:route>/no2.part1.mentions</fr:route>
+            <fr:title text="Mentions">Mentions</fr:title>
+            <fr:taxon>Resource</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li>00:08: <fr:link href="/0008/" title="sandbox-02.agda" uri="https://intro-hott.video/0008/" display-uri="0008" type="local">sandbox-02.agda</fr:link></html:li>
+   <html:li>00:27: <fr:link href="/0009/" title="00-preamble.agda" uri="https://intro-hott.video/0009/" display-uri="0009" type="local">00-preamble.agda</fr:link></html:li>
+   <html:li>06:36: <fr:link href="/000B/" title="𝟙-Formation &amp; 𝟙-Introduction" uri="https://intro-hott.video/000B/" display-uri="000B" type="local">𝟙-Formation &amp; 𝟙-Introduction</fr:link></html:li>
+   <html:li>06:44: <fr:link href="/0009/" title="00-preamble.agda" uri="https://intro-hott.video/0009/" display-uri="0009" type="local">00-preamble.agda</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

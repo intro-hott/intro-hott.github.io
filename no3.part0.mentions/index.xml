@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>6</fr:month>
+      <fr:day>20</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/no3.part0.mentions</fr:uri>
+    <fr:display-uri>no3.part0.mentions</fr:display-uri>
+    <fr:route>/no3.part0.mentions</fr:route>
+    <fr:title text="Mentions">Mentions</fr:title>
+    <fr:taxon>Resource</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:ul><html:li>14:09: <fr:link href="/000D/" title="𝟚-Formation &amp; 𝟚-Introduction" uri="https://intro-hott.video/000D/" display-uri="000D" type="local">𝟚-Formation &amp; 𝟚-Introduction</fr:link></html:li>
+   <html:li>15:45: <fr:link href="/000E/" title="Boolean combinators" uri="https://intro-hott.video/000E/" display-uri="000E" type="local">Boolean combinators</fr:link></html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no3.part0</fr:uri>
+            <fr:display-uri>no3.part0</fr:display-uri>
+            <fr:route>/no3.part0</fr:route>
+            <fr:title text="Booleans in HoTT: Boolean Combinators">Booleans in HoTT: Boolean Combinators</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no3.part0.description</fr:uri>
+                <fr:display-uri>no3.part0.description</fr:display-uri>
+                <fr:route>/no3.part0.description</fr:route>
+                <fr:title text="Booleans in HoTT: Boolean Combinators">Booleans in HoTT: Boolean Combinators</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>Boolean logic is an important part of computer science, both at the hardware level and the software level. Can we do boolean logic in HoTT? Of course we can! This video shows how to recreate the logic of boolean circuits and logic gates, both in informal HoTT and in our Agda formalization of HoTT.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no3.part0.embed</fr:uri>
+                <fr:display-uri>no3.part0.embed</fr:display-uri>
+                <fr:route>/no3.part0.embed</fr:route>
+                <fr:title text="Booleans in HoTT: Boolean Combinators">Booleans in HoTT: Boolean Combinators</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/QWgjTdyGh2M?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no3.part0.mentions</fr:uri>
+                <fr:display-uri>no3.part0.mentions</fr:display-uri>
+                <fr:route>/no3.part0.mentions</fr:route>
+                <fr:title text="Mentions">Mentions</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>14:09: <fr:link href="/000D/" title="𝟚-Formation &amp; 𝟚-Introduction" uri="https://intro-hott.video/000D/" display-uri="000D" type="local">𝟚-Formation &amp; 𝟚-Introduction</fr:link></html:li>
+   <html:li>15:45: <fr:link href="/000E/" title="Boolean combinators" uri="https://intro-hott.video/000E/" display-uri="000E" type="local">Boolean combinators</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000E/</fr:uri>
+            <fr:display-uri>000E</fr:display-uri>
+            <fr:route>/000E/</fr:route>
+            <fr:title text="Boolean combinators">
+              <html:code>Boolean combinators</html:code>
+            </fr:title>
+            <fr:taxon>Code Fragment</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+<html:a id="344" href="../000A/index.xml#344" class="Function Operator">_&amp;&amp;_</html:a> <html:a id="349" class="Symbol">:</html:a> <html:a id="351" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="353" class="Symbol">→</html:a> <html:a id="355" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="357" class="Symbol">→</html:a> <html:a id="359" href="../000A/index.xml#334" class="Function">𝟚</html:a>
+<html:a id="361" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a> <html:a id="364" href="../000A/index.xml#344" class="Function Operator">&amp;&amp;</html:a> <html:a id="367" href="../000A/index.xml#367" class="Bound">b2</html:a> <html:a id="370" class="Symbol">=</html:a> <html:a id="372" href="../000A/index.xml#367" class="Bound">b2</html:a>
+<html:a id="375" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a> <html:a id="379" href="../000A/index.xml#344" class="Function Operator">&amp;&amp;</html:a> <html:a id="382" href="../000A/index.xml#382" class="Bound">b2</html:a> <html:a id="385" class="Symbol">=</html:a> <html:a id="387" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a>
+
+<html:a id="392" href="../000A/index.xml#392" class="Function Operator">_||_</html:a> <html:a id="397" class="Symbol">:</html:a> <html:a id="399" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="401" class="Symbol">→</html:a> <html:a id="403" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="405" class="Symbol">→</html:a> <html:a id="407" href="../000A/index.xml#334" class="Function">𝟚</html:a>
+<html:a id="409" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a> <html:a id="412" href="../000A/index.xml#392" class="Function Operator">||</html:a> <html:a id="415" href="../000A/index.xml#415" class="Bound">b2</html:a> <html:a id="418" class="Symbol">=</html:a> <html:a id="420" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a>
+<html:a id="423" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a> <html:a id="427" href="../000A/index.xml#392" class="Function Operator">||</html:a> <html:a id="430" href="../000A/index.xml#430" class="Bound">b2</html:a> <html:a id="433" class="Symbol">=</html:a> <html:a id="435" href="../000A/index.xml#430" class="Bound">b2</html:a>
+
+<html:a id="!" /><html:a id="439" href="../000A/index.xml#439" class="Function">!</html:a> <html:a id="441" class="Symbol">:</html:a> <html:a id="443" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="445" class="Symbol">→</html:a> <html:a id="447" href="../000A/index.xml#334" class="Function">𝟚</html:a>
+<html:a id="449" href="../000A/index.xml#439" class="Function">!</html:a> <html:a id="451" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a> <html:a id="454" class="Symbol">=</html:a> <html:a id="456" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a>
+<html:a id="460" href="../000A/index.xml#439" class="Function">!</html:a> <html:a id="462" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a> <html:a id="466" class="Symbol">=</html:a> <html:a id="468" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a>
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>20</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000D/</fr:uri>
+            <fr:display-uri>000D</fr:display-uri>
+            <fr:route>/000D/</fr:route>
+            <fr:title text="𝟚-Formation &amp; 𝟚-Introduction">
+              <html:code>𝟚-Formation &amp; 𝟚-Introduction</html:code>
+            </fr:title>
+            <fr:taxon>Code Fragment</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+
+<html:a id="288" class="Keyword">data</html:a> <html:a id="bool" /><html:a id="293" href="../000A/index.xml#293" class="Datatype">bool</html:a> <html:a id="298" class="Symbol">:</html:a> <html:a id="300" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="305" href="Agda.Primitive.html/index.xml#764" class="Primitive">lzero</html:a> <html:a id="311" class="Keyword">where</html:a>
+  <html:a id="bool.on" /><html:a id="319" href="../000A/index.xml#319" class="InductiveConstructor">on</html:a> <html:a id="bool.off" /><html:a id="322" href="../000A/index.xml#322" class="InductiveConstructor">off</html:a> <html:a id="326" class="Symbol">:</html:a> <html:a id="328" href="../000A/index.xml#293" class="Datatype">bool</html:a>
+
+<html:a id="𝟚" /><html:a id="334" href="../000A/index.xml#334" class="Function">𝟚</html:a> <html:a id="336" class="Symbol">=</html:a> <html:a id="338" href="../000A/index.xml#293" class="Datatype">bool</html:a>
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

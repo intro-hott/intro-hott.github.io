@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2023</fr:year>
+      <fr:month>3</fr:month>
+      <fr:day>5</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/no5.part0.mentions</fr:uri>
+    <fr:display-uri>no5.part0.mentions</fr:display-uri>
+    <fr:route>/no5.part0.mentions</fr:route>
+    <fr:title text="Mentions">Mentions</fr:title>
+    <fr:taxon>Resource</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:ul><html:li>04:05: <fr:link href="/000C/" title="example-daysOfWeek.agda" uri="https://intro-hott.video/000C/" display-uri="000C" type="local">example-daysOfWeek.agda</fr:link></html:li>
+   <html:li>06:15: <fr:link href="/000M/" title="iter-𝟙, 𝟘-Formation, and iter-𝟘" uri="https://intro-hott.video/000M/" display-uri="000M" type="local">iter-𝟙, 𝟘-Formation, and iter-𝟘</fr:link></html:li></html:ul>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2023</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no5.part0</fr:uri>
+            <fr:display-uri>no5.part0</fr:display-uri>
+            <fr:route>/no5.part0</fr:route>
+            <fr:title text="Noughts &amp; Crosses: Set Interpretation">Noughts &amp; Crosses: Set Interpretation</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no5.part0.description</fr:uri>
+                <fr:display-uri>no5.part0.description</fr:display-uri>
+                <fr:route>/no5.part0.description</fr:route>
+                <fr:title text="Noughts &amp; Crosses: Set Interpretation">Noughts &amp; Crosses: Set Interpretation</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>In this video, we return to the homotopy interpretation and explore its simpler edge cases, sets! In particular, we look at an edge case of sets, the empty set.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no5.part0.embed</fr:uri>
+                <fr:display-uri>no5.part0.embed</fr:display-uri>
+                <fr:route>/no5.part0.embed</fr:route>
+                <fr:title text="Noughts &amp; Crosses: Set Interpretation">Noughts &amp; Crosses: Set Interpretation</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/cw2ZhHWnGXE?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no5.part0.mentions</fr:uri>
+                <fr:display-uri>no5.part0.mentions</fr:display-uri>
+                <fr:route>/no5.part0.mentions</fr:route>
+                <fr:title text="Mentions">Mentions</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>04:05: <fr:link href="/000C/" title="example-daysOfWeek.agda" uri="https://intro-hott.video/000C/" display-uri="000C" type="local">example-daysOfWeek.agda</fr:link></html:li>
+   <html:li>06:15: <fr:link href="/000M/" title="iter-𝟙, 𝟘-Formation, and iter-𝟘" uri="https://intro-hott.video/000M/" display-uri="000M" type="local">iter-𝟙, 𝟘-Formation, and iter-𝟘</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2023</fr:year>
+              <fr:month>3</fr:month>
+              <fr:day>5</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000M/</fr:uri>
+            <fr:display-uri>000M</fr:display-uri>
+            <fr:route>/000M/</fr:route>
+            <fr:title text="iter-𝟙, 𝟘-Formation, and iter-𝟘">
+              <html:code>iter-𝟙, 𝟘-Formation, and iter-𝟘</html:code>
+            </fr:title>
+            <fr:taxon>Code Fragment</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda">
+<html:a id="iter-𝟙" /><html:a id="887" href="../000A/index.xml#887" class="Function">iter-𝟙</html:a> <html:a id="894" class="Symbol">:</html:a> <html:a id="896" href="../000A/index.xml#483" class="Generalizable">A</html:a> <html:a id="898" class="Symbol">→</html:a> <html:a id="900" href="../000A/index.xml#199" class="Function">𝟙</html:a> <html:a id="902" class="Symbol">→</html:a> <html:a id="904" href="../000A/index.xml#483" class="Generalizable">A</html:a>
+<html:a id="906" href="../000A/index.xml#887" class="Function">iter-𝟙</html:a> <html:a id="913" href="../000A/index.xml#913" class="Bound">a</html:a> <html:a id="915" class="Symbol">=</html:a> <html:a id="917" class="Symbol">λ</html:a> <html:a id="919" href="../000A/index.xml#919" class="Bound">star</html:a> <html:a id="924" class="Symbol">→</html:a> <html:a id="926" href="../000A/index.xml#913" class="Bound">a</html:a>
+
+<html:a id="929" class="Keyword">data</html:a> <html:a id="empty" /><html:a id="934" href="../000A/index.xml#934" class="Datatype">empty</html:a> <html:a id="940" class="Symbol">:</html:a> <html:a id="942" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="947" href="Agda.Primitive.html#764" class="Primitive">lzero</html:a> <html:a id="953" class="Keyword">where</html:a>
+
+<html:a id="𝟘" /><html:a id="960" href="../000A/index.xml#960" class="Function">𝟘</html:a> <html:a id="962" class="Symbol">=</html:a> <html:a id="964" href="../000A/index.xml#934" class="Datatype">empty</html:a>
+
+<html:a id="iter-𝟘" /><html:a id="971" href="../000A/index.xml#971" class="Function">iter-𝟘</html:a> <html:a id="978" class="Symbol">:</html:a> <html:a id="980" href="../000A/index.xml#960" class="Function">𝟘</html:a> <html:a id="982" class="Symbol">→</html:a> <html:a id="984" href="../000A/index.xml#483" class="Generalizable">A</html:a>
+<html:a id="986" href="../000A/index.xml#971" class="Function">iter-𝟘</html:a> <html:a id="993" class="Symbol"><![CDATA[(]]><![CDATA[)]]></html:a>
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>6</fr:month>
+              <fr:day>9</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/000C/</fr:uri>
+            <fr:display-uri>000C</fr:display-uri>
+            <fr:route>/000C/</fr:route>
+            <fr:title text="example-daysOfWeek.agda">
+              <html:code>example-daysOfWeek.agda</html:code>
+            </fr:title>
+            <fr:taxon>Code File</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+            <html:pre class="Agda"><html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="../000C/index.xml" class="Module">example-daysOfWeek</html:a> <html:a id="56" class="Keyword">where</html:a> 
+ 
+ 
+<html:a id="67" class="Keyword">import</html:a> <html:a id="74" href="../0009/index.xml" class="Module">00-preamble</html:a> 
+<html:a id="87" class="Keyword">open</html:a> <html:a id="92" href="../0009/index.xml" class="Module">00-preamble</html:a> <html:a id="104" class="Keyword">public</html:a>
+
+<html:a id="112" class="Keyword">data</html:a> <html:a id="day" /><html:a id="117" href="../000C/index.xml#117" class="Datatype">day</html:a> <html:a id="121" class="Symbol">:</html:a> <html:a id="123" href="../0009/index.xml#143" class="Function">Type</html:a> <html:a id="128" href="Agda.Primitive.html/index.xml#764" class="Primitive">lzero</html:a> <html:a id="134" class="Keyword">where</html:a>
+  <html:a id="day.Sunday" /><html:a id="142" href="../000C/index.xml#142" class="InductiveConstructor">Sunday</html:a> <html:a id="day.Monday" /><html:a id="149" href="../000C/index.xml#149" class="InductiveConstructor">Monday</html:a> <html:a id="day.Tuesday" /><html:a id="156" href="../000C/index.xml#156" class="InductiveConstructor">Tuesday</html:a> <html:a id="day.Wednesday" /><html:a id="164" href="../000C/index.xml#164" class="InductiveConstructor">Wednesday</html:a> <html:a id="day.Thursday" /><html:a id="174" href="../000C/index.xml#174" class="InductiveConstructor">Thursday</html:a> <html:a id="day.Friday" /><html:a id="183" href="../000C/index.xml#183" class="InductiveConstructor">Friday</html:a> <html:a id="day.Saturday" /><html:a id="190" href="../000C/index.xml#190" class="InductiveConstructor">Saturday</html:a> <html:a id="199" class="Symbol">:</html:a> <html:a id="201" href="../000C/index.xml#117" class="Datatype">day</html:a> 
+
+<html:a id="next" /><html:a id="207" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="212" class="Symbol">:</html:a> <html:a id="214" href="../000C/index.xml#117" class="Datatype">day</html:a> <html:a id="218" class="Symbol">→</html:a> <html:a id="220" href="../000C/index.xml#117" class="Datatype">day</html:a> 
+<html:a id="225" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="230" href="../000C/index.xml#142" class="InductiveConstructor">Sunday</html:a> <html:a id="237" class="Symbol">=</html:a> <html:a id="239" href="../000C/index.xml#149" class="InductiveConstructor">Monday</html:a>
+<html:a id="246" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="251" href="../000C/index.xml#149" class="InductiveConstructor">Monday</html:a> <html:a id="258" class="Symbol">=</html:a> <html:a id="260" href="../000C/index.xml#156" class="InductiveConstructor">Tuesday</html:a>
+<html:a id="268" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="273" href="../000C/index.xml#156" class="InductiveConstructor">Tuesday</html:a> <html:a id="281" class="Symbol">=</html:a> <html:a id="283" href="../000C/index.xml#164" class="InductiveConstructor">Wednesday</html:a>
+<html:a id="293" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="298" href="../000C/index.xml#164" class="InductiveConstructor">Wednesday</html:a> <html:a id="308" class="Symbol">=</html:a> <html:a id="310" href="../000C/index.xml#174" class="InductiveConstructor">Thursday</html:a>
+<html:a id="319" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="324" href="../000C/index.xml#174" class="InductiveConstructor">Thursday</html:a> <html:a id="333" class="Symbol">=</html:a> <html:a id="335" href="../000C/index.xml#183" class="InductiveConstructor">Friday</html:a>
+<html:a id="342" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="347" href="../000C/index.xml#183" class="InductiveConstructor">Friday</html:a> <html:a id="354" class="Symbol">=</html:a> <html:a id="356" href="../000C/index.xml#190" class="InductiveConstructor">Saturday</html:a>
+<html:a id="365" href="../000C/index.xml#207" class="Function">next</html:a> <html:a id="370" href="../000C/index.xml#190" class="InductiveConstructor">Saturday</html:a> <html:a id="379" class="Symbol">=</html:a> <html:a id="381" href="../000C/index.xml#142" class="InductiveConstructor">Sunday</html:a>
+
+<html:a id="prev" /><html:a id="389" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="394" class="Symbol">:</html:a> <html:a id="396" href="../000C/index.xml#117" class="Datatype">day</html:a> <html:a id="400" class="Symbol">→</html:a> <html:a id="402" href="../000C/index.xml#117" class="Datatype">day</html:a> 
+<html:a id="407" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="412" href="../000C/index.xml#142" class="InductiveConstructor">Sunday</html:a> <html:a id="419" class="Symbol">=</html:a> <html:a id="421" href="../000C/index.xml#190" class="InductiveConstructor">Saturday</html:a>
+<html:a id="430" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="435" href="../000C/index.xml#149" class="InductiveConstructor">Monday</html:a> <html:a id="442" class="Symbol">=</html:a> <html:a id="444" href="../000C/index.xml#142" class="InductiveConstructor">Sunday</html:a>
+<html:a id="451" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="456" href="../000C/index.xml#156" class="InductiveConstructor">Tuesday</html:a> <html:a id="464" class="Symbol">=</html:a> <html:a id="466" href="../000C/index.xml#149" class="InductiveConstructor">Monday</html:a>
+<html:a id="473" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="478" href="../000C/index.xml#164" class="InductiveConstructor">Wednesday</html:a> <html:a id="488" class="Symbol">=</html:a> <html:a id="490" href="../000C/index.xml#156" class="InductiveConstructor">Tuesday</html:a>
+<html:a id="498" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="503" href="../000C/index.xml#174" class="InductiveConstructor">Thursday</html:a> <html:a id="512" class="Symbol">=</html:a> <html:a id="514" href="../000C/index.xml#164" class="InductiveConstructor">Wednesday</html:a>
+<html:a id="524" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="529" href="../000C/index.xml#183" class="InductiveConstructor">Friday</html:a> <html:a id="536" class="Symbol">=</html:a> <html:a id="538" href="../000C/index.xml#174" class="InductiveConstructor">Thursday</html:a>
+<html:a id="547" href="../000C/index.xml#389" class="Function">prev</html:a> <html:a id="552" href="../000C/index.xml#190" class="InductiveConstructor">Saturday</html:a> <html:a id="561" class="Symbol">=</html:a> <html:a id="563" href="../000C/index.xml#183" class="InductiveConstructor">Friday</html:a>
+
+</html:pre>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

@@ -1,0 +1,1327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>4</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>6</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>25</fr:day>
+    </fr:date>
+    <fr:date>
+      <fr:year>2022</fr:year>
+      <fr:month>4</fr:month>
+      <fr:day>30</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/no1/</fr:uri>
+    <fr:display-uri>no1</fr:display-uri>
+    <fr:route>/no1/</fr:route>
+    <fr:title text="Intro to HoTT No. 1: Three for One">Intro to HoTT No. 1: Three for One</fr:title>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:a href="../no1.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmiaknnwy6jwzgbwzezh6ky7aqof6ta4sdzxdmcftqotk4kkazecby4.png);">
+    Part 0: Introduction
+</html:div>
+</html:a>
+    <html:span class="taxon">Video Page: <fr:link href="/no1.part0" title="Three for One: Introduction" uri="https://intro-hott.video/no1.part0" display-uri="no1.part0" type="local">Part 0: Introduction</fr:link></html:span>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2022</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>4</fr:day>
+        </fr:date>
+        <fr:uri>https://intro-hott.video/no1.part0.description</fr:uri>
+        <fr:display-uri>no1.part0.description</fr:display-uri>
+        <fr:route>/no1.part0.description</fr:route>
+        <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+        <fr:taxon>Video Description</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>What does homotopy type theory mean? This is a question which has three distinct answers, connecting the language of HoTT to the rich worlds of functional programming, homotopy theory, and constructive logic.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:a href="../no1.part1">
+<html:div class="linkBar" style="background-image:url(/bafkrmig77rv3lwougjyg24amyydtxnzy4wr5icodydzposd5somp4wlxby.png);">
+    Part 1: Programming Interpretation
+</html:div>
+</html:a>
+    <html:span class="taxon">Video Page: <fr:link href="/no1.part1" title="Three for One: Programming Interpretation" uri="https://intro-hott.video/no1.part1" display-uri="no1.part1" type="local">Part 1: Programming Interpretation</fr:link></html:span>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2022</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>6</fr:day>
+        </fr:date>
+        <fr:uri>https://intro-hott.video/no1.part1.description</fr:uri>
+        <fr:display-uri>no1.part1.description</fr:display-uri>
+        <fr:route>/no1.part1.description</fr:route>
+        <fr:title text="Three for One: Programming Interpretation">Three for One: Programming Interpretation</fr:title>
+        <fr:taxon>Video Description</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>What does homotopy type theory mean? This video presents the first answer: HoTT is a typed programming language. Under this interpretation, the unit type 1 is the type of zero-tuples, a standard feature in many typed programming languages.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:a href="../no1.part2">
+<html:div class="linkBar" style="background-image:url(/bafkrmicqhranbedkkynlvh3ryothlo3r4kusjnvmpoy7kstwvnmrg2qaii.png);">
+    Part 2: Homotopy Interpretation
+</html:div>
+</html:a>
+    <html:span class="taxon">Video Page: <fr:link href="/no1.part2" title="Three for One: Homotopy Interpretation" uri="https://intro-hott.video/no1.part2" display-uri="no1.part2" type="local">Part 2: Homotopy Interpretation</fr:link></html:span>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2022</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>25</fr:day>
+        </fr:date>
+        <fr:uri>https://intro-hott.video/no1.part2.description</fr:uri>
+        <fr:display-uri>no1.part2.description</fr:display-uri>
+        <fr:route>/no1.part2.description</fr:route>
+        <fr:title text="Three for One: Homotopy Interpretation">Three for One: Homotopy Interpretation</fr:title>
+        <fr:taxon>Video Description</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>What does homotopy type theory mean? This video presents the next answer: HoTT is a language for describing spaces. Under this interpretation, the unit type 1 represents the space consisting of just a single point. This video informally introduces the idea of contractibility, which we'll rigorously define later and use extensively throughout HoTT.</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+    <html:a href="../no1.part3">
+<html:div class="linkBar" style="background-image:url(/bafkrmiflap634b7l6i4vyrfnxuvioaxgutyzpbijz5tysx75n3gah2wqji.png);">
+    Part 3: Logic Interpretation
+</html:div>
+</html:a>
+    <html:span class="taxon">Video Page: <fr:link href="/no1.part3" title="Three for One: Logic Interpretation" uri="https://intro-hott.video/no1.part3" display-uri="no1.part3" type="local">Part 3: Logic Interpretation</fr:link></html:span>
+    <fr:tree show-metadata="false" numbered="false">
+      <fr:frontmatter>
+        <fr:authors>
+          <fr:author>
+            <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+          </fr:author>
+        </fr:authors>
+        <fr:date>
+          <fr:year>2022</fr:year>
+          <fr:month>4</fr:month>
+          <fr:day>30</fr:day>
+        </fr:date>
+        <fr:uri>https://intro-hott.video/no1.part3.description</fr:uri>
+        <fr:display-uri>no1.part3.description</fr:display-uri>
+        <fr:route>/no1.part3.description</fr:route>
+        <fr:title text="Three for One: Logic Interpretation">Three for One: Logic Interpretation</fr:title>
+        <fr:taxon>Video Description</fr:taxon>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <html:p>What does homotopy type theory mean? This video presents our third answer: HoTT is a logical calculus for constructively proving statements (especially mathematical claims). This is by way of the famed Curry-Howard</html:p>
+      </fr:mainmatter>
+    </fr:tree>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>31</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/videos/</fr:uri>
+            <fr:display-uri>videos</fr:display-uri>
+            <fr:route>/videos/</fr:route>
+            <fr:title text="Intro to HoTT videos list">Intro to HoTT videos list</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no0/</fr:uri>
+                <fr:display-uri>no0</fr:display-uri>
+                <fr:route>/no0/</fr:route>
+                <fr:title text="Intro to HoTT No. 0: Was soll HoTT?">Intro to HoTT No. 0: Was soll HoTT?</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no0.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmiaknnwy6jwzgbwzezh6ky7aqof6ta4sdzxdmcftqotk4kkazecby4.png);">
+    Part 0: Was soll HoTT?
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no0.part0" title="Was soll HoTT?" uri="https://intro-hott.video/no0.part0" display-uri="no0.part0" type="local">Part 0: Was soll HoTT?</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>3</fr:month>
+                      <fr:day>5</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no0.part0.description</fr:uri>
+                    <fr:display-uri>no0.part0.description</fr:display-uri>
+                    <fr:route>/no0.part0.description</fr:route>
+                    <fr:title text="Was soll HoTT?">Was soll HoTT?</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>What is homotopy type theory good for? In this video, I discuss the ideas of type-checking and formalized mathematics, and begin to describe how HoTT promises a new future for mathematics.</html:p>
+                    <html:p>This the the first (or, rather, zeroth) video in a planned video series covering the basics of homotopy type theory. This is a reboot of the video series I started in 2021—I got too busy last year with teaching and starting my PhD. Thanks to everyone who left kind comments on those videos, and encouraged me to make videos again!</html:p>
+                    <html:p>Pardon my butchering of the German language.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>30</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1/</fr:uri>
+                <fr:display-uri>no1</fr:display-uri>
+                <fr:route>/no1/</fr:route>
+                <fr:title text="Intro to HoTT No. 1: Three for One">Intro to HoTT No. 1: Three for One</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no1.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmiaknnwy6jwzgbwzezh6ky7aqof6ta4sdzxdmcftqotk4kkazecby4.png);">
+    Part 0: Introduction
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no1.part0" title="Three for One: Introduction" uri="https://intro-hott.video/no1.part0" display-uri="no1.part0" type="local">Part 0: Introduction</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>4</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no1.part0.description</fr:uri>
+                    <fr:display-uri>no1.part0.description</fr:display-uri>
+                    <fr:route>/no1.part0.description</fr:route>
+                    <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>What does homotopy type theory mean? This is a question which has three distinct answers, connecting the language of HoTT to the rich worlds of functional programming, homotopy theory, and constructive logic.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no1.part1">
+<html:div class="linkBar" style="background-image:url(/bafkrmig77rv3lwougjyg24amyydtxnzy4wr5icodydzposd5somp4wlxby.png);">
+    Part 1: Programming Interpretation
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no1.part1" title="Three for One: Programming Interpretation" uri="https://intro-hott.video/no1.part1" display-uri="no1.part1" type="local">Part 1: Programming Interpretation</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>6</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no1.part1.description</fr:uri>
+                    <fr:display-uri>no1.part1.description</fr:display-uri>
+                    <fr:route>/no1.part1.description</fr:route>
+                    <fr:title text="Three for One: Programming Interpretation">Three for One: Programming Interpretation</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>What does homotopy type theory mean? This video presents the first answer: HoTT is a typed programming language. Under this interpretation, the unit type 1 is the type of zero-tuples, a standard feature in many typed programming languages.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no1.part2">
+<html:div class="linkBar" style="background-image:url(/bafkrmicqhranbedkkynlvh3ryothlo3r4kusjnvmpoy7kstwvnmrg2qaii.png);">
+    Part 2: Homotopy Interpretation
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no1.part2" title="Three for One: Homotopy Interpretation" uri="https://intro-hott.video/no1.part2" display-uri="no1.part2" type="local">Part 2: Homotopy Interpretation</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>25</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no1.part2.description</fr:uri>
+                    <fr:display-uri>no1.part2.description</fr:display-uri>
+                    <fr:route>/no1.part2.description</fr:route>
+                    <fr:title text="Three for One: Homotopy Interpretation">Three for One: Homotopy Interpretation</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>What does homotopy type theory mean? This video presents the next answer: HoTT is a language for describing spaces. Under this interpretation, the unit type 1 represents the space consisting of just a single point. This video informally introduces the idea of contractibility, which we'll rigorously define later and use extensively throughout HoTT.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no1.part3">
+<html:div class="linkBar" style="background-image:url(/bafkrmiflap634b7l6i4vyrfnxuvioaxgutyzpbijz5tysx75n3gah2wqji.png);">
+    Part 3: Logic Interpretation
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no1.part3" title="Three for One: Logic Interpretation" uri="https://intro-hott.video/no1.part3" display-uri="no1.part3" type="local">Part 3: Logic Interpretation</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>4</fr:month>
+                      <fr:day>30</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no1.part3.description</fr:uri>
+                    <fr:display-uri>no1.part3.description</fr:display-uri>
+                    <fr:route>/no1.part3.description</fr:route>
+                    <fr:title text="Three for One: Logic Interpretation">Three for One: Logic Interpretation</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>What does homotopy type theory mean? This video presents our third answer: HoTT is a logical calculus for constructively proving statements (especially mathematical claims). This is by way of the famed Curry-Howard</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>27</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>9</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no2/</fr:uri>
+                <fr:display-uri>no2</fr:display-uri>
+                <fr:route>/no2/</fr:route>
+                <fr:title text="Intro to HoTT No. 2: Formalities &amp; Informalities">Intro to HoTT No. 2: Formalities &amp; Informalities</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no2.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmigywaoojm2lmm4owzo37c5l7nwfwlax7ekigflnqcm7aeeuwqe5ty.png);">
+    Part 0: HoTT Workflows
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no2.part0" title="Formalities &amp; Informalities: HoTT Workflows" uri="https://intro-hott.video/no2.part0" display-uri="no2.part0" type="local">Part 0: HoTT Workflows</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>20</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no2.part0.description</fr:uri>
+                    <fr:display-uri>no2.part0.description</fr:display-uri>
+                    <fr:route>/no2.part0.description</fr:route>
+                    <fr:title text="Formalities &amp; Informalities: HoTT Workflows">Formalities &amp; Informalities: HoTT Workflows</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>How do we do Homotopy Type Theory? This is another question with three answers: homotopy type theorists will dress their work in three different styles -- informal reasoning, computer formalization, and as inference rules in a deductive system. In these videos, I describe these three styles of HoTT and how a successful homotopy type theorist navigates between them.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no2.part1">
+<html:div class="linkBar" style="background-image:url(/bafkrmidykxlig6uogx6g3pbwryj2dzdxicrkoexk4e7shfp4hv4p3ces3a.png);">
+    Part 1: Declare-It-Yourself
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no2.part1" title="Formalities &amp; Informalities: Declare-It-Yourself" uri="https://intro-hott.video/no2.part1" display-uri="no2.part1" type="local">Part 1: Declare-It-Yourself</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>20</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no2.part1.description</fr:uri>
+                    <fr:display-uri>no2.part1.description</fr:display-uri>
+                    <fr:route>/no2.part1.description</fr:route>
+                    <fr:title text="Formalities &amp; Informalities: Declare-It-Yourself">Formalities &amp; Informalities: Declare-It-Yourself</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>How do we do Homotopy Type Theory? In this video, I cover some of the fundamentals of working in Agda (the computer formalization system we'll be using in these videos) and the basic concepts of HoTT as a formal language: judgments, inference rules, formation and introduction.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no2.part2">
+<html:div class="linkBar" style="background-image:url(/bafkrmidj3gobsjigshmvumvj7y6bx7kw4wpph7g6lgoz7utg6qfpn7frxm.png);">
+    Part 2: Judgmental Equality
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no2.part2" title="Formalities &amp; Informalities: Judgmental Equality" uri="https://intro-hott.video/no2.part2" display-uri="no2.part2" type="local">Part 2: Judgmental Equality</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>27</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no2.part2.description</fr:uri>
+                    <fr:display-uri>no2.part2.description</fr:display-uri>
+                    <fr:route>/no2.part2.description</fr:route>
+                    <fr:title text="Formalities &amp; Informalities: Judgmental Equality">Formalities &amp; Informalities: Judgmental Equality</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>An essential piece of HoTT is judgmental equality, which is how we state that two things are equal</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no2.part3">
+<html:div class="linkBar" style="background-image:url(/bafkrmie2fuspllhk24rffyd45dqbk47m4bao3lmzbzxxiinbopzriolr54.png);">
+    Part 3: Not-So-Casual Friday
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no2.part3" title="Formalities &amp; Informalities: Not-So-Casual Friday" uri="https://intro-hott.video/no2.part3" display-uri="no2.part3" type="local">Part 3: Not-So-Casual Friday</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>9</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no2.part3.description</fr:uri>
+                    <fr:display-uri>no2.part3.description</fr:display-uri>
+                    <fr:route>/no2.part3.description</fr:route>
+                    <fr:title text="Formalities &amp; Informalities: Not-So-Casual Friday">Formalities &amp; Informalities: Not-So-Casual Friday</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, I bring together everything covered in Parts 0, 1, and 2 with an example: the days of the week!</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>6</fr:month>
+                  <fr:day>30</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no3/</fr:uri>
+                <fr:display-uri>no3</fr:display-uri>
+                <fr:route>/no3/</fr:route>
+                <fr:title text="Intro to HoTT No. 3: Booleans in HoTT">Intro to HoTT No. 3: Booleans in HoTT</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no3.part0">
+<html:div class="linkBarDark" style="background-image:url(/bafkrmihuafrpzfz6xqr77ahqtlq6x7oudzyxbxrkezxmo44jk3wblbbbky.png);">
+    Part 0: Boolean Combinators
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no3.part0" title="Booleans in HoTT: Boolean Combinators" uri="https://intro-hott.video/no3.part0" display-uri="no3.part0" type="local">Part 0: Boolean Combinators</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>20</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no3.part0.description</fr:uri>
+                    <fr:display-uri>no3.part0.description</fr:display-uri>
+                    <fr:route>/no3.part0.description</fr:route>
+                    <fr:title text="Booleans in HoTT: Boolean Combinators">Booleans in HoTT: Boolean Combinators</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Boolean logic is an important part of computer science, both at the hardware level and the software level. Can we do boolean logic in HoTT? Of course we can! This video shows how to recreate the logic of boolean circuits and logic gates, both in informal HoTT and in our Agda formalization of HoTT.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no3.part1">
+<html:div class="linkBarDark" style="background-image:url(/bafkrmihuafrpzfz6xqr77ahqtlq6x7oudzyxbxrkezxmo44jk3wblbbbky.png);">
+    Part 1: Putting Bool to Use
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no3.part1" title="Booleans in HoTT: Putting Bool to Use" uri="https://intro-hott.video/no3.part1" display-uri="no3.part1" type="local">Part 1: Putting Bool to Use</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>6</fr:month>
+                      <fr:day>30</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no3.part1.description</fr:uri>
+                    <fr:display-uri>no3.part1.description</fr:display-uri>
+                    <fr:route>/no3.part1.description</fr:route>
+                    <fr:title text="Booleans in HoTT: Putting Bool to Use">Booleans in HoTT: Putting Bool to Use</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Boolean logic is an important part of computer science, both at the hardware level and the software level. Can we do boolean logic in HoTT? Of course we can! In this video, I give our first example of the iteration and computation rules for a type, which are how we use types. With booleans, this corresponds to gate-like constructs called multiplexers and to the ubiquitous 'if-then-else' construction of programming languages.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>10</fr:month>
+                  <fr:day>12</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>11</fr:month>
+                  <fr:day>2</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no4/</fr:uri>
+                <fr:display-uri>no4</fr:display-uri>
+                <fr:route>/no4/</fr:route>
+                <fr:title text="Intro to HoTT No. 4: Logic &amp; Lambdas">Intro to HoTT No. 4: Logic &amp; Lambdas</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no4.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmieibhg4il3rsepgzuxmdnmjkkvxi4ke5vgvxwvilyfw27vqs4kzgi.png);">
+    Part 0: Constructive Modus Ponens
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no4.part0" title="Logic &amp; Lambdas: Constructive Modus Ponens" uri="https://intro-hott.video/no4.part0" display-uri="no4.part0" type="local">Part 0: Constructive Modus Ponens</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>10</fr:month>
+                      <fr:day>12</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no4.part0.description</fr:uri>
+                    <fr:display-uri>no4.part0.description</fr:display-uri>
+                    <fr:route>/no4.part0.description</fr:route>
+                    <fr:title text="Logic &amp; Lambdas: Constructive Modus Ponens">Logic &amp; Lambdas: Constructive Modus Ponens</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we incorporate into type theory a central feature of logic: implications. Along the way, we encounter the work of the ancient Greek philosopher Theophrastus, the modern work of Brouwer, Heyting, and Kolmogorov, and end up doing computer programming. Quite a journey!</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no4.part1">
+<html:div class="linkBar" style="background-image:url(/bafkrmieibhg4il3rsepgzuxmdnmjkkvxi4ke5vgvxwvilyfw27vqs4kzgi.png);">
+    Part 1: Context Extension
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no4.part1" title="Logic &amp; Lambdas: Context Extension" uri="https://intro-hott.video/no4.part1" display-uri="no4.part1" type="local">Part 1: Context Extension</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2022</fr:year>
+                      <fr:month>11</fr:month>
+                      <fr:day>2</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no4.part1.description</fr:uri>
+                    <fr:display-uri>no4.part1.description</fr:display-uri>
+                    <fr:route>/no4.part1.description</fr:route>
+                    <fr:title text="Logic &amp; Lambdas: Context Extension">Logic &amp; Lambdas: Context Extension</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we discuss the deductive rules governing arrow types: the application rule, the lambda abstraction rule, and the β &amp; η rules.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>3</fr:month>
+                  <fr:day>5</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>8</fr:month>
+                  <fr:day>20</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2023</fr:year>
+                  <fr:month>11</fr:month>
+                  <fr:day>13</fr:day>
+                </fr:date>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>5</fr:month>
+                  <fr:day>17</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no5/</fr:uri>
+                <fr:display-uri>no5</fr:display-uri>
+                <fr:route>/no5/</fr:route>
+                <fr:title text="Intro to HoTT No. 5: Noughts &amp; Crosses">Intro to HoTT No. 5: Noughts &amp; Crosses</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no5.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmiagt4wnds2wwdanakg6l6j3vycwpcu5xbe66fnk62i7v5l44smp6a.png);">
+    Part 0: Set Interpretation
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no5.part0" title="Noughts &amp; Crosses: Set Interpretation" uri="https://intro-hott.video/no5.part0" display-uri="no5.part0" type="local">Part 0: Set Interpretation</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2023</fr:year>
+                      <fr:month>3</fr:month>
+                      <fr:day>5</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no5.part0.description</fr:uri>
+                    <fr:display-uri>no5.part0.description</fr:display-uri>
+                    <fr:route>/no5.part0.description</fr:route>
+                    <fr:title text="Noughts &amp; Crosses: Set Interpretation">Noughts &amp; Crosses: Set Interpretation</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we return to the homotopy interpretation and explore its simpler edge cases, sets! In particular, we look at an edge case of sets, the empty set.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no5.part1">
+<html:div class="linkBar" style="background-image:url(/bafkrmiagt4wnds2wwdanakg6l6j3vycwpcu5xbe66fnk62i7v5l44smp6a.png);">
+    Part 1: Cartesian Product
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no5.part1" title="Noughts &amp; Crosses: Cartesian Product" uri="https://intro-hott.video/no5.part1" display-uri="no5.part1" type="local">Part 1: Cartesian Product</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2023</fr:year>
+                      <fr:month>8</fr:month>
+                      <fr:day>20</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no5.part1.description</fr:uri>
+                    <fr:display-uri>no5.part1.description</fr:display-uri>
+                    <fr:route>/no5.part1.description</fr:route>
+                    <fr:title text="Noughts &amp; Crosses: Cartesian Product">Noughts &amp; Crosses: Cartesian Product</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we take an informal look at what it means to "multiply" homotopy spaces. These "product types" play a central role in type theory, especially in the logic interpretation (as we'll discuss in a future video).</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no5.part2">
+<html:div class="linkBar" style="background-image:url(/bafkrmiagt4wnds2wwdanakg6l6j3vycwpcu5xbe66fnk62i7v5l44smp6a.png);">
+    Part 2: Understanding Beta &amp; Eta
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no5.part2" title="Noughts &amp; Crosses: Understanding Beta &amp; Eta" uri="https://intro-hott.video/no5.part2" display-uri="no5.part2" type="local">Part 2: Understanding Beta &amp; Eta</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2023</fr:year>
+                      <fr:month>11</fr:month>
+                      <fr:day>13</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no5.part2.description</fr:uri>
+                    <fr:display-uri>no5.part2.description</fr:display-uri>
+                    <fr:route>/no5.part2.description</fr:route>
+                    <fr:title text="Noughts &amp; Crosses: Understanding Beta &amp; Eta">Noughts &amp; Crosses: Understanding Beta &amp; Eta</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we conduct a formal development of product types in the HoTT deductive calculus, formalizing our informal work from the previous video. This provides an occasion to refine our intuitions for what Beta and Eta Computation rules mean.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+                <html:a href="../no5.part3">
+<html:div class="linkBar" style="background-image:url(/bafkrmiagt4wnds2wwdanakg6l6j3vycwpcu5xbe66fnk62i7v5l44smp6a.png);">
+    Part 3: Computing with Product Types
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no5.part3" title="Noughts &amp; Crosses: Computing with Product Types" uri="https://intro-hott.video/no5.part3" display-uri="no5.part3" type="local">Part 3: Computing with Product Types</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>5</fr:month>
+                      <fr:day>17</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no5.part3.description</fr:uri>
+                    <fr:display-uri>no5.part3.description</fr:display-uri>
+                    <fr:route>/no5.part3.description</fr:route>
+                    <fr:title text="Noughts &amp; Crosses: Computing with Product Types">Noughts &amp; Crosses: Computing with Product Types</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>In this video, we conduct a formal development of product types in Agda, to complement our earlier informal developments (the product operation on homotopy spaces) and formalization in the HoTT deductive calculus. We use some function combinators to implement integer division in Agda and Haskell, running into some trouble with nontermination along the way.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2024</fr:year>
+                  <fr:month>7</fr:month>
+                  <fr:day>23</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no6/</fr:uri>
+                <fr:display-uri>no6</fr:display-uri>
+                <fr:route>/no6/</fr:route>
+                <fr:title text="Intro to HoTT No. 6: Mechanics, or Magic?">Intro to HoTT No. 6: Mechanics, or Magic?</fr:title>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:a href="../no6.part0">
+<html:div class="linkBar" style="background-image:url(/bafkrmibuwrria6i5c2snvuppk5sfe3fojopty7koi32qsjnixqqozlfoqm.png);">
+    Part 0: STLC and Propositional Logic
+</html:div>
+</html:a>
+                <html:span class="taxon">Video Page: <fr:link href="/no6.part0" title="Mechanics, or Magic?: STLC and Propositional Logic" uri="https://intro-hott.video/no6.part0" display-uri="no6.part0" type="local">Part 0: STLC and Propositional Logic</fr:link></html:span>
+                <fr:tree show-metadata="false" numbered="false">
+                  <fr:frontmatter>
+                    <fr:authors>
+                      <fr:author>
+                        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                      </fr:author>
+                    </fr:authors>
+                    <fr:date>
+                      <fr:year>2024</fr:year>
+                      <fr:month>7</fr:month>
+                      <fr:day>23</fr:day>
+                    </fr:date>
+                    <fr:uri>https://intro-hott.video/no6.part0.description</fr:uri>
+                    <fr:display-uri>no6.part0.description</fr:display-uri>
+                    <fr:route>/no6.part0.description</fr:route>
+                    <fr:title text="Mechanics, or Magic?: STLC and Propositional Logic">Mechanics, or Magic?: STLC and Propositional Logic</fr:title>
+                    <fr:taxon>Video Description</fr:taxon>
+                  </fr:frontmatter>
+                  <fr:mainmatter>
+                    <html:p>Returning to the logic interpretation, we round out intuitionistic propositional logic with logical conjunction, disjunction, negation, and equivalence, all implemented in informal/Agda formal/deductive formal HoTT.</html:p>
+                  </fr:mainmatter>
+                </fr:tree>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>30</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no1.part3</fr:uri>
+            <fr:display-uri>no1.part3</fr:display-uri>
+            <fr:route>/no1.part3</fr:route>
+            <fr:title text="Three for One: Logic Interpretation">Three for One: Logic Interpretation</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>30</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part3.description</fr:uri>
+                <fr:display-uri>no1.part3.description</fr:display-uri>
+                <fr:route>/no1.part3.description</fr:route>
+                <fr:title text="Three for One: Logic Interpretation">Three for One: Logic Interpretation</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>What does homotopy type theory mean? This video presents our third answer: HoTT is a logical calculus for constructively proving statements (especially mathematical claims). This is by way of the famed Curry-Howard</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>30</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part3.embed</fr:uri>
+                <fr:display-uri>no1.part3.embed</fr:display-uri>
+                <fr:route>/no1.part3.embed</fr:route>
+                <fr:title text="Three for One: Logic Interpretation">Three for One: Logic Interpretation</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/2zcEP2Ny63s?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>25</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no1.part2</fr:uri>
+            <fr:display-uri>no1.part2</fr:display-uri>
+            <fr:route>/no1.part2</fr:route>
+            <fr:title text="Three for One: Homotopy Interpretation">Three for One: Homotopy Interpretation</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part2.description</fr:uri>
+                <fr:display-uri>no1.part2.description</fr:display-uri>
+                <fr:route>/no1.part2.description</fr:route>
+                <fr:title text="Three for One: Homotopy Interpretation">Three for One: Homotopy Interpretation</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>What does homotopy type theory mean? This video presents the next answer: HoTT is a language for describing spaces. Under this interpretation, the unit type 1 represents the space consisting of just a single point. This video informally introduces the idea of contractibility, which we'll rigorously define later and use extensively throughout HoTT.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part2.embed</fr:uri>
+                <fr:display-uri>no1.part2.embed</fr:display-uri>
+                <fr:route>/no1.part2.embed</fr:route>
+                <fr:title text="Three for One: Homotopy Interpretation">Three for One: Homotopy Interpretation</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/XUYPU9LjGKM?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>25</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part2.further</fr:uri>
+                <fr:display-uri>no1.part2.further</fr:display-uri>
+                <fr:route>/no1.part2.further</fr:route>
+                <fr:title text="Further Reading">Further Reading</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li>Numberphile has several excellent videos on Klein Bottles, e.g. <fr:link href="https://www.youtube.com/watch?v=AAsICMPwGPY" type="external">this one</fr:link>.</html:li>
+<html:li><fr:link href="https://plato.stanford.edu/entries/set-theory/" type="external">SEP article on Set Theory</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>6</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no1.part1</fr:uri>
+            <fr:display-uri>no1.part1</fr:display-uri>
+            <fr:route>/no1.part1</fr:route>
+            <fr:title text="Three for One: Programming Interpretation">Three for One: Programming Interpretation</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part1.description</fr:uri>
+                <fr:display-uri>no1.part1.description</fr:display-uri>
+                <fr:route>/no1.part1.description</fr:route>
+                <fr:title text="Three for One: Programming Interpretation">Three for One: Programming Interpretation</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>What does homotopy type theory mean? This video presents the first answer: HoTT is a typed programming language. Under this interpretation, the unit type 1 is the type of zero-tuples, a standard feature in many typed programming languages.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>6</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part1.embed</fr:uri>
+                <fr:display-uri>no1.part1.embed</fr:display-uri>
+                <fr:route>/no1.part1.embed</fr:route>
+                <fr:title text="Three for One: Programming Interpretation">Three for One: Programming Interpretation</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/VnO2-ynvDsw?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2022</fr:year>
+              <fr:month>4</fr:month>
+              <fr:day>4</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no1.part0</fr:uri>
+            <fr:display-uri>no1.part0</fr:display-uri>
+            <fr:route>/no1.part0</fr:route>
+            <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+            <fr:taxon>Video</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part0.description</fr:uri>
+                <fr:display-uri>no1.part0.description</fr:display-uri>
+                <fr:route>/no1.part0.description</fr:route>
+                <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+                <fr:taxon>Video Description</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:p>What does homotopy type theory mean? This is a question which has three distinct answers, connecting the language of HoTT to the rich worlds of functional programming, homotopy theory, and constructive logic.</html:p>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part0.embed</fr:uri>
+                <fr:display-uri>no1.part0.embed</fr:display-uri>
+                <fr:route>/no1.part0.embed</fr:route>
+                <fr:title text="Three for One: Introduction">Three for One: Introduction</fr:title>
+                <fr:taxon>Video Embed</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:iframe src="https://www.youtube.com/embed/Fn12iWcJDwE?list=PL245PKGUDdcN9-El9D7DRefwX4c9feiYq" width="100%" height="288" frameborder="0" allowfullscreen="" />
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors>
+                  <fr:author>
+                    <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+                  </fr:author>
+                </fr:authors>
+                <fr:date>
+                  <fr:year>2022</fr:year>
+                  <fr:month>4</fr:month>
+                  <fr:day>4</fr:day>
+                </fr:date>
+                <fr:uri>https://intro-hott.video/no1.part0.further</fr:uri>
+                <fr:display-uri>no1.part0.further</fr:display-uri>
+                <fr:route>/no1.part0.further</fr:route>
+                <fr:title text="Further Reading">Further Reading</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://existentialtype.wordpress.com/2011/03/27/the-holy-trinity/" type="external">Blog by Bob Harper about computational trinitarianism</fr:link></html:li>
+<html:li><fr:link href="https://ncatlab.org/nlab/show/computational+trilogy#:~:text=The%20central%20dogma%20of%20computational,of%20computation%20in%20our%20lives" type="external">nLab page</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-formalization/</fr:uri>
+                <fr:display-uri>resources-formalization</fr:display-uri>
+                <fr:route>/resources-formalization/</fr:route>
+                <fr:title text="Formalization Links">Formalization Links</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://github.com/jacobneu/HoTT-agda" type="external">The formalization I'm developing for this video series</fr:link></html:li>
+<html:li><fr:link href="https://unimath.github.io/agda-unimath/" type="external">More up-to-date HoTT formalization in Agda</fr:link></html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+            <fr:tree show-metadata="false" numbered="false">
+              <fr:frontmatter>
+                <fr:authors />
+                <fr:uri>https://intro-hott.video/resources-textbook/</fr:uri>
+                <fr:display-uri>resources-textbook</fr:display-uri>
+                <fr:route>/resources-textbook/</fr:route>
+                <fr:title text="Textbooks">Textbooks</fr:title>
+                <fr:taxon>Resource</fr:taxon>
+              </fr:frontmatter>
+              <fr:mainmatter>
+                <html:ul><html:li><fr:link href="https://homotopytypetheory.org/book/" type="external">The HoTT Book (2013)</fr:link>—the original statement of HoTT</html:li>
+<html:li><fr:link href="https://www.cambridge.org/core/books/introduction-to-homotopy-type-theory/0DD31EC06C80797A50ACE807251E80B6" type="external">Introduction to Homotopy Type Theory</fr:link>, by Egbert Rijke</html:li></html:ul>
+              </fr:mainmatter>
+            </fr:tree>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>

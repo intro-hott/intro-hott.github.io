@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="/default.xsl"?>
+<fr:tree xmlns:fr="http://www.forester-notes.org" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xml="http://www.w3.org/XML/1998/namespace" root="false" base-url="/">
+  <fr:frontmatter>
+    <fr:authors>
+      <fr:author>
+        <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+      </fr:author>
+    </fr:authors>
+    <fr:date>
+      <fr:year>2024</fr:year>
+      <fr:month>5</fr:month>
+      <fr:day>17</fr:day>
+    </fr:date>
+    <fr:uri>https://intro-hott.video/000R/</fr:uri>
+    <fr:display-uri>000R</fr:display-uri>
+    <fr:route>/000R/</fr:route>
+    <fr:title text="example-divmod.agda">
+      <html:code>example-divmod.agda</html:code>
+    </fr:title>
+    <fr:taxon>Code File</fr:taxon>
+  </fr:frontmatter>
+  <fr:mainmatter>
+    <html:link rel="stylesheet" href="/bafkrmietcfrwlogin5appbsutsddtnwwo5pgxlilhmlwbotv26bjx62umq.css" />
+    <html:pre class="Agda"><html:a id="1" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="5" class="Keyword">OPTIONS</html:a> <html:a id="13" class="Pragma">--without-K</html:a> <html:a id="25" class="Symbol">-<![CDATA[}]]></html:a>
+
+<html:a id="30" class="Keyword">module</html:a> <html:a id="37" href="../000R/index.xml" class="Module">example-divmod</html:a> <html:a id="52" class="Keyword">where</html:a> 
+
+<html:a id="60" class="Keyword">import</html:a> <html:a id="67" href="../000A/index.xml" class="Module">01-simpleTT</html:a> 
+<html:a id="80" class="Keyword">open</html:a> <html:a id="85" href="../000A/index.xml" class="Module">01-simpleTT</html:a> <html:a id="97" class="Keyword">public</html:a>
+
+
+<html:a id="106" class="Keyword">open</html:a> <html:a id="111" class="Keyword">import</html:a> <html:a id="118" href="Agda.Builtin.Nat.html" class="Module">Agda.Builtin.Nat</html:a> <html:a id="135" class="Keyword">renaming</html:a> <html:a id="144" class="Symbol"><![CDATA[(]]></html:a><html:a id="145" href="Agda.Builtin.Nat.html#192" class="Datatype">Nat</html:a> <html:a id="149" class="Symbol">to</html:a> <html:a id="152" class="Datatype">ℕ</html:a><html:a id="153" class="Symbol"><![CDATA[)]]></html:a>
+<html:a id="155" class="Keyword">open</html:a> <html:a id="160" class="Keyword">import</html:a> <html:a id="167" href="../000G/index.xml" class="Module">sandbox-03</html:a> <html:a id="178" class="Keyword">public</html:a>
+<html:a id="185" class="Keyword">open</html:a> <html:a id="190" href="../000A/index.xml#1017" class="Module Operator">_×_</html:a>
+
+
+<html:a id="196" class="Keyword">infix</html:a> <html:a id="202" class="Number">4</html:a> <html:a id="204" href="../000R/index.xml#235" class="Function Operator">_/%_</html:a> <html:a id="209" href="../000R/index.xml#332" class="Function Operator">_/%'_</html:a>
+<html:a id="215" class="Symbol"><![CDATA[{]]>-#</html:a> <html:a id="219" class="Keyword">TERMINATING</html:a> <html:a id="231" class="Symbol">-<![CDATA[}]]></html:a>
+<html:a id="235" href="../000R/index.xml#235" class="Function Operator">_/%_</html:a> <html:a id="240" class="Symbol">:</html:a> <html:a id="242" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="244" class="Symbol">→</html:a> <html:a id="246" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="248" class="Symbol">→</html:a> <html:a id="250" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="252" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="254" href="../000R/index.xml#152" class="Datatype">ℕ</html:a>
+<html:a id="256" href="../000R/index.xml#256" class="Bound">n</html:a> <html:a id="258" href="../000R/index.xml#235" class="Function Operator">/%</html:a> <html:a id="261" href="../000R/index.xml#261" class="Bound">d</html:a> <html:a id="263" class="Symbol">=</html:a> 
+  <html:a id="268" href="../000A/index.xml#593" class="Function Operator">if</html:a> <html:a id="271" href="../000R/index.xml#256" class="Bound">n</html:a> <html:a id="273" href="../000G/index.xml#403" class="Function Operator">&lt;₂</html:a> <html:a id="276" href="../000R/index.xml#261" class="Bound">d</html:a> 
+  <html:a id="281" href="../000A/index.xml#593" class="Function Operator">then</html:a> <html:a id="286" class="Number">0</html:a> <html:a id="288" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="290" href="../000R/index.xml#256" class="Bound">n</html:a> 
+  <html:a id="295" href="../000A/index.xml#593" class="Function Operator">else</html:a> <html:a id="300" class="Symbol"><![CDATA[(]]></html:a> <html:a id="302" class="Symbol"><![CDATA[(]]></html:a><html:a id="303" href="Agda.Builtin.Nat.html#223" class="InductiveConstructor">suc</html:a> <html:a id="307" href="../000A/index.xml#1224" class="Function Operator">***</html:a> <html:a id="311" href="../000A/index.xml#806" class="Function">id</html:a><html:a id="313" class="Symbol"><![CDATA[)]]></html:a> <html:a id="315" class="Symbol"><![CDATA[(]]><![CDATA[(]]></html:a><html:a id="317" href="../000R/index.xml#256" class="Bound">n</html:a> <html:a id="319" href="Agda.Builtin.Nat.html#415" class="Primitive Operator">-</html:a> <html:a id="321" href="../000R/index.xml#261" class="Bound">d</html:a><html:a id="322" class="Symbol"><![CDATA[)]]></html:a> <html:a id="324" href="../000R/index.xml#235" class="Function Operator">/%</html:a> <html:a id="327" href="../000R/index.xml#261" class="Bound">d</html:a><html:a id="328" class="Symbol"><![CDATA[)]]><![CDATA[)]]></html:a>
+
+<html:a id="332" href="../000R/index.xml#332" class="Function Operator">_/%'_</html:a> <html:a id="338" class="Symbol">:</html:a> <html:a id="340" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="342" class="Symbol">→</html:a> <html:a id="344" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="346" class="Symbol">→</html:a> <html:a id="348" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="350" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="352" href="../000R/index.xml#152" class="Datatype">ℕ</html:a>
+<html:a id="354" href="../000R/index.xml#354" class="Bound">n</html:a> <html:a id="356" href="../000R/index.xml#332" class="Function Operator">/%'</html:a> <html:a id="360" href="../000R/index.xml#360" class="Bound">d</html:a> <html:a id="362" class="Symbol">=</html:a> <html:a id="364" href="../000R/index.xml#458" class="Function">division-fueled</html:a> <html:a id="380" href="../000R/index.xml#354" class="Bound">n</html:a> <html:a id="382" href="../000R/index.xml#354" class="Bound">n</html:a> <html:a id="384" href="../000R/index.xml#360" class="Bound">d</html:a>
+  <html:a id="388" class="Keyword">where</html:a>
+    <html:a id="398" href="../000R/index.xml#398" class="Function">incFst</html:a> <html:a id="405" class="Symbol">:</html:a> <html:a id="407" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="409" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="411" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="413" class="Symbol">→</html:a> <html:a id="415" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="417" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="419" href="../000R/index.xml#152" class="Datatype">ℕ</html:a>
+    <html:a id="425" href="../000R/index.xml#398" class="Function">incFst</html:a> <html:a id="432" class="Symbol"><![CDATA[(]]></html:a><html:a id="433" href="../000R/index.xml#433" class="Bound">q</html:a> <html:a id="435" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="437" href="../000R/index.xml#437" class="Bound">r</html:a><html:a id="438" class="Symbol"><![CDATA[)]]></html:a> <html:a id="440" class="Symbol">=</html:a> <html:a id="442" class="Symbol"><![CDATA[(]]></html:a><html:a id="443" href="../000R/index.xml#433" class="Bound">q</html:a> <html:a id="445" href="Agda.Builtin.Nat.html#325" class="Primitive Operator">+</html:a> <html:a id="447" class="Number">1</html:a><html:a id="448" class="Symbol"><![CDATA[)]]></html:a> <html:a id="450" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="452" href="../000R/index.xml#437" class="Bound">r</html:a>
+    <html:a id="458" href="../000R/index.xml#458" class="Function">division-fueled</html:a> <html:a id="474" class="Symbol">:</html:a> <html:a id="476" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="478" class="Symbol">→</html:a> <html:a id="480" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="482" class="Symbol">→</html:a> <html:a id="484" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="486" class="Symbol">→</html:a> <html:a id="488" href="../000R/index.xml#152" class="Datatype">ℕ</html:a> <html:a id="490" href="../000A/index.xml#1017" class="Record Operator">×</html:a> <html:a id="492" href="../000R/index.xml#152" class="Datatype">ℕ</html:a>
+    <html:a id="498" href="../000R/index.xml#458" class="Function">division-fueled</html:a> <html:a id="514" href="Agda.Builtin.Nat.html#210" class="InductiveConstructor">zero</html:a> <html:a id="519" href="../000R/index.xml#519" class="Bound">n</html:a> <html:a id="521" href="../000R/index.xml#521" class="Bound">d</html:a> <html:a id="523" class="Symbol">=</html:a> <html:a id="525" class="Number">0</html:a> <html:a id="527" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="529" href="../000R/index.xml#519" class="Bound">n</html:a>
+    <html:a id="535" href="../000R/index.xml#458" class="Function">division-fueled</html:a> <html:a id="551" class="Symbol"><![CDATA[(]]></html:a><html:a id="552" href="Agda.Builtin.Nat.html#223" class="InductiveConstructor">suc</html:a> <html:a id="556" href="../000R/index.xml#556" class="Bound">f</html:a><html:a id="557" class="Symbol"><![CDATA[)]]></html:a> <html:a id="559" href="../000R/index.xml#559" class="Bound">n</html:a> <html:a id="561" href="../000R/index.xml#561" class="Bound">d</html:a> <html:a id="563" class="Symbol">=</html:a> 
+      <html:a id="572" href="../000A/index.xml#593" class="Function Operator">if</html:a> <html:a id="575" href="../000R/index.xml#559" class="Bound">n</html:a> <html:a id="577" href="../000G/index.xml#403" class="Function Operator">&lt;₂</html:a> <html:a id="580" href="../000R/index.xml#561" class="Bound">d</html:a> 
+      <html:a id="589" href="../000A/index.xml#593" class="Function Operator">then</html:a> <html:a id="594" class="Number">0</html:a> <html:a id="596" href="../000A/index.xml#1065" class="InductiveConstructor Operator">,</html:a> <html:a id="598" href="../000R/index.xml#559" class="Bound">n</html:a> 
+      <html:a id="607" href="../000A/index.xml#593" class="Function Operator">else</html:a> <html:a id="612" class="Symbol"><![CDATA[(]]></html:a><html:a id="613" href="../000R/index.xml#398" class="Function">incFst</html:a> <html:a id="620" class="Symbol"><![CDATA[(]]></html:a> <html:a id="622" href="../000R/index.xml#458" class="Function">division-fueled</html:a> <html:a id="638" href="../000R/index.xml#556" class="Bound">f</html:a> <html:a id="640" class="Symbol"><![CDATA[(]]></html:a><html:a id="641" href="../000R/index.xml#559" class="Bound">n</html:a> <html:a id="643" href="Agda.Builtin.Nat.html#415" class="Primitive Operator">-</html:a> <html:a id="645" href="../000R/index.xml#561" class="Bound">d</html:a><html:a id="646" class="Symbol"><![CDATA[)]]></html:a> <html:a id="648" href="../000R/index.xml#561" class="Bound">d</html:a> <html:a id="650" class="Symbol"><![CDATA[)]]><![CDATA[)]]></html:a>
+
+
+
+
+ </html:pre>
+  </fr:mainmatter>
+  <fr:backmatter>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="References">References</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Context">Context</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Backlinks">Backlinks</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2026</fr:year>
+              <fr:month>1</fr:month>
+              <fr:day>28</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/code.examples</fr:uri>
+            <fr:display-uri>code.examples</fr:display-uri>
+            <fr:route>/code.examples</fr:route>
+            <fr:title text="Agda Examples">Agda Examples</fr:title>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li><fr:link href="/000C/" title="example-daysOfWeek.agda" uri="https://intro-hott.video/000C/" display-uri="000C" type="local">Days of the Week</fr:link></html:li>
+<html:li><fr:link href="/000R/" title="example-divmod.agda" uri="https://intro-hott.video/000R/" display-uri="000R" type="local">Divmod</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+        <fr:tree show-metadata="true" expanded="false" toc="false" numbered="false">
+          <fr:frontmatter>
+            <fr:authors>
+              <fr:author>
+                <fr:link href="/jacobneu/" title="Jacob Neumann" uri="https://intro-hott.video/jacobneu/" display-uri="jacobneu" type="local">Jacob Neumann</fr:link>
+              </fr:author>
+            </fr:authors>
+            <fr:date>
+              <fr:year>2024</fr:year>
+              <fr:month>5</fr:month>
+              <fr:day>17</fr:day>
+            </fr:date>
+            <fr:uri>https://intro-hott.video/no5.part3.mentions</fr:uri>
+            <fr:display-uri>no5.part3.mentions</fr:display-uri>
+            <fr:route>/no5.part3.mentions</fr:route>
+            <fr:title text="Mentions">Mentions</fr:title>
+            <fr:taxon>Resource</fr:taxon>
+          </fr:frontmatter>
+          <fr:mainmatter>
+            <html:ul><html:li>01:44: <fr:link href="/000N/" title="×-Types record" uri="https://intro-hott.video/000N/" display-uri="000N" type="local">×-Types record</fr:link></html:li>
+   <html:li>05:03: <fr:link href="/000Q/" title="sandbox-05.agda" uri="https://intro-hott.video/000Q/" display-uri="000Q" type="local">sandbox-05.agda</fr:link></html:li>
+   <html:li>06:44: <fr:link href="/000P/" title="×-Types function combinators" uri="https://intro-hott.video/000P/" display-uri="000P" type="local">×-Types function combinators</fr:link></html:li>
+   <html:li>09:27: <fr:link href="/000Q/" title="sandbox-05.agda" uri="https://intro-hott.video/000Q/" display-uri="000Q" type="local">sandbox-05.agda</fr:link></html:li>
+   <html:li>17:56: <fr:link href="/000G/" title="sandbox-03.agda" uri="https://intro-hott.video/000G/" display-uri="000G" type="local">sandbox-03.agda</fr:link></html:li>
+   <html:li>18:23: <fr:link href="/000R/" title="example-divmod.agda" uri="https://intro-hott.video/000R/" display-uri="000R" type="local">example-divmod.agda</fr:link></html:li></html:ul>
+          </fr:mainmatter>
+        </fr:tree>
+      </fr:mainmatter>
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Related">Related</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+    <fr:tree show-metadata="false" hidden-when-empty="true">
+      <fr:frontmatter>
+        <fr:authors />
+        <fr:title text="Contributions">Contributions</fr:title>
+      </fr:frontmatter>
+      <fr:mainmatter />
+    </fr:tree>
+  </fr:backmatter>
+</fr:tree>
